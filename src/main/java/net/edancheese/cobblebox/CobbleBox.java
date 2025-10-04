@@ -72,20 +72,8 @@ public class CobbleBox {
 
     // Add the example block item to the building blocks tab
     private void addCreative(BuildCreativeModeTabContentsEvent event) {
-
-        //if(event.getTabKey() == CreativeModeTabs.) {
-        //    event.accept(ModBlocks.COMMON_COBBLEBOX);
-       // }
-       // if(event.getTabKey() == CreativeModeTabs.FUNCTIONAL_BLOCKS) {
-       //     event.accept(ModBlocks.RARE_COBBLEBOX);
-       // }
-       // if(event.getTabKey() == CreativeModeTabs.FUNCTIONAL_BLOCKS) {
-       //     event.accept(ModBlocks.ULTRARARE_COBBLEBOX);
-       // }
-       // if(event.getTabKey() == CreativeModeTabs.FUNCTIONAL_BLOCKS) {
-       //     event.accept(ModBlocks.SHINY_COBBLEBOX);
         }
-    //}
+
 
     // You can use SubscribeEvent and let the Event Bus discover methods to call
     @SubscribeEvent
