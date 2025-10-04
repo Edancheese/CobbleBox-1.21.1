@@ -1,6 +1,7 @@
 package net.edancheese.cobblebox;
 
 import net.edancheese.cobblebox.block.ModBlocks;
+import net.edancheese.cobblebox.item.ModCreativeModeTab;
 import net.edancheese.cobblebox.item.ModItems;
 import org.slf4j.Logger;
 
@@ -54,6 +55,7 @@ public class CobbleBox {
         // Do not add this line if there are no @SubscribeEvent-annotated functions in this class, like onServerStarting() below.
         NeoForge.EVENT_BUS.register(this);
 
+        ModCreativeModeTab.register(modEventBus);
         ModBlocks.register(modEventBus);
         ModItems.register(modEventBus);
 
@@ -70,22 +72,20 @@ public class CobbleBox {
 
     // Add the example block item to the building blocks tab
     private void addCreative(BuildCreativeModeTabContentsEvent event) {
-        if(event.getTabKey() == CreativeModeTabs.INGREDIENTS) {
-            event.accept(ModItems.COBBLEBOX);
+
+        //if(event.getTabKey() == CreativeModeTabs.) {
+        //    event.accept(ModBlocks.COMMON_COBBLEBOX);
+       // }
+       // if(event.getTabKey() == CreativeModeTabs.FUNCTIONAL_BLOCKS) {
+       //     event.accept(ModBlocks.RARE_COBBLEBOX);
+       // }
+       // if(event.getTabKey() == CreativeModeTabs.FUNCTIONAL_BLOCKS) {
+       //     event.accept(ModBlocks.ULTRARARE_COBBLEBOX);
+       // }
+       // if(event.getTabKey() == CreativeModeTabs.FUNCTIONAL_BLOCKS) {
+       //     event.accept(ModBlocks.SHINY_COBBLEBOX);
         }
-        if(event.getTabKey() == CreativeModeTabs.FUNCTIONAL_BLOCKS) {
-            event.accept(ModBlocks.COMMON_COBBLEBOX);
-        }
-        if(event.getTabKey() == CreativeModeTabs.FUNCTIONAL_BLOCKS) {
-            event.accept(ModBlocks.RARE_COBBLEBOX);
-        }
-        if(event.getTabKey() == CreativeModeTabs.FUNCTIONAL_BLOCKS) {
-            event.accept(ModBlocks.ULTRARARE_COBBLEBOX);
-        }
-        if(event.getTabKey() == CreativeModeTabs.FUNCTIONAL_BLOCKS) {
-            event.accept(ModBlocks.SHINY_COBBLEBOX);
-        }
-    }
+    //}
 
     // You can use SubscribeEvent and let the Event Bus discover methods to call
     @SubscribeEvent
