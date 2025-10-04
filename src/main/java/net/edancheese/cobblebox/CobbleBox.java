@@ -76,6 +76,15 @@ public class CobbleBox {
         if(event.getTabKey() == CreativeModeTabs.FUNCTIONAL_BLOCKS) {
             event.accept(ModBlocks.COMMON_COBBLEBOX);
         }
+        if(event.getTabKey() == CreativeModeTabs.FUNCTIONAL_BLOCKS) {
+            event.accept(ModBlocks.RARE_COBBLEBOX);
+        }
+        if(event.getTabKey() == CreativeModeTabs.FUNCTIONAL_BLOCKS) {
+            event.accept(ModBlocks.ULTRARARE_COBBLEBOX);
+        }
+        if(event.getTabKey() == CreativeModeTabs.FUNCTIONAL_BLOCKS) {
+            event.accept(ModBlocks.SHINY_COBBLEBOX);
+        }
     }
 
     // You can use SubscribeEvent and let the Event Bus discover methods to call

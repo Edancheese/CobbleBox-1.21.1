@@ -1,6 +1,7 @@
 package net.edancheese.cobblebox.block;
 
 import net.edancheese.cobblebox.CobbleBox;
+import net.edancheese.cobblebox.block.custom.CobbleboxBlock;
 import net.edancheese.cobblebox.item.ModItems;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.Item;
@@ -19,8 +20,20 @@ public class ModBlocks {
             DeferredRegister.createBlocks(CobbleBox.MOD_ID);
 
     public static final DeferredBlock<Block> COMMON_COBBLEBOX = registerBlock("common_cobblebox",
-            () -> new Block(BlockBehaviour.Properties.of()
+            () -> new CobbleboxBlock(BlockBehaviour.Properties.of()
             .strength(0.7F).sound(SoundType.WOOD)));
+
+    public static final DeferredBlock<Block> RARE_COBBLEBOX = registerBlock("rare_cobblebox",
+            () -> new CobbleboxBlock(BlockBehaviour.Properties.of()
+                    .strength(0.7F).sound(SoundType.WOOD)));
+
+    public static final DeferredBlock<Block> ULTRARARE_COBBLEBOX = registerBlock("ultrarare_cobblebox",
+            () -> new CobbleboxBlock(BlockBehaviour.Properties.of()
+                    .strength(0.7F).sound(SoundType.POLISHED_DEEPSLATE)));
+
+    public static final DeferredBlock<Block> SHINY_COBBLEBOX = registerBlock("shiny_cobblebox",
+            () -> new CobbleboxBlock(BlockBehaviour.Properties.of()
+                    .strength(0.7F).sound(SoundType.AMETHYST)));
 
 
 
