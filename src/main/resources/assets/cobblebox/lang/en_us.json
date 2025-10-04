@@ -1,7 +1,7 @@
 {
-  "block.cobblebox.common_cobblebox": "common cobblebox",
-  "block.cobblebox.rare_cobblebox": "rare cobblebox",
-  "block.cobblebox.ultrarare_cobblebox": "ultra rare cobblebox",
-  "block.cobblebox.shiny_cobblebox": "shiny cobblebox",
-  "item.cobblebox.test_cobblebox": "test cobblebox"
+  "block.cobblebox.common_cobblebox": "Common Cobblebox",
+  "block.cobblebox.rare_cobblebox": "Rare Cobblebox",
+  "block.cobblebox.ultrarare_cobblebox": "Ultra Rare Cobblebox",
+  "block.cobblebox.shiny_cobblebox": "Shiny Cobblebox",
+  "item.cobblebox.test_cobblebox": "Test Cobblebox"
 }
