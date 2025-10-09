@@ -1,0 +1,8 @@
+{
+  "entries": [
+    "cobblebox:common_cobblebox_to_fishing",
+    "cobblebox:rare_cobblebox_to_fishing",
+    "cobblebox:ultrarare_cobblebox_to_fishing"
+  ],
+  "replace": false
+}

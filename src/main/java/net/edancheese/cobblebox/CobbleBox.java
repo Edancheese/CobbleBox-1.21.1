@@ -3,6 +3,7 @@ package net.edancheese.cobblebox;
 import net.edancheese.cobblebox.block.ModBlocks;
 import net.edancheese.cobblebox.item.ModCreativeModeTab;
 import net.edancheese.cobblebox.item.ModItems;
+import net.edancheese.cobblebox.loot.ModLootModifiers;
 import org.slf4j.Logger;
 
 import com.mojang.logging.LogUtils;
@@ -58,6 +59,7 @@ public class CobbleBox {
         ModCreativeModeTab.register(modEventBus);
         ModBlocks.register(modEventBus);
         ModItems.register(modEventBus);
+        ModLootModifiers.register(modEventBus);
 
         // Register the item to a creative tab
         modEventBus.addListener(this::addCreative);
