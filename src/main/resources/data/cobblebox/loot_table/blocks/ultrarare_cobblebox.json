@@ -1,0 +1,4119 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "rolls": 1,
+      "bonus_rolls": 0,
+      "entries": [
+        {
+          "type": "minecraft:alternatives",
+          "children": [
+            {
+              "type": "minecraft:item",
+              "name": "cobblebox:ultrarare_cobblebox",
+              "conditions": [
+                {
+                  "condition": "minecraft:match_tool",
+                  "predicate": {
+                    "predicates": {
+                      "minecraft:enchantments": [
+                        {
+                          "enchantments": "minecraft:silk_touch",
+                          "levels": {
+                            "min": 1
+                          }
+                        }
+                      ]
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "type": "minecraft:group",
+              "children": [
+                {
+                  "type": "minecraft:item",
+                  "name": "cobblemon:pokemon_model",
+                  "weight": 2,
+                  "functions": [
+                    {
+                      "function": "minecraft:set_components",
+                      "components": {
+                        "cobblemon:pokemon_item": {
+                          "species": "cobblemon:charizard",
+                          "aspects": []
+                        },
+                        "minecraft:max_stack_size": 64
+                      }
+                    }
+                  ]
+                },
+                {
+                  "type": "minecraft:item",
+                  "name": "cobblemon:pokemon_model",
+                  "weight": 2,
+                  "functions": [
+                    {
+                      "function": "minecraft:set_components",
+                      "components": {
+                        "cobblemon:pokemon_item": {
+                          "species": "cobblemon:venusaur",
+                          "aspects": []
+                        },
+                        "minecraft:max_stack_size": 64
+                      }
+                    }
+                  ]
+                },
+                {
+                  "type": "minecraft:item",
+                  "name": "cobblemon:pokemon_model",
+                  "weight": 2,
+                  "functions": [
+                    {
+                      "function": "minecraft:set_components",
+                      "components": {
+                        "cobblemon:pokemon_item": {
+                          "species": "cobblemon:blastoise",
+                          "aspects": []
+                        },
+                        "minecraft:max_stack_size": 64
+                      }
+                    }
+                  ]
+
+                },
+                {
+                  "type": "minecraft:item",
+                  "name": "cobblemon:pokemon_model",
+                  "weight": 2,
+                  "functions": [
+                    {
+                      "function": "minecraft:set_components",
+                      "components": {
+                        "cobblemon:pokemon_item": {
+                          "species": "cobblemon:ditto",
+                          "aspects": []
+                        },
+                        "minecraft:max_stack_size": 64
+                      }
+                    }
+                  ]
+
+                },
+                {
+                  "type": "minecraft:item",
+                  "name": "cobblemon:pokemon_model",
+                  "weight": 2,
+                  "functions": [
+                    {
+                      "function": "minecraft:set_components",
+                      "components": {
+                        "cobblemon:pokemon_item": {
+                          "species": "cobblemon:articuno",
+                          "aspects": []
+                        },
+                        "minecraft:max_stack_size": 64
+                      }
+                    }
+                  ]
+
+                },
+                {
+                  "type": "minecraft:item",
+                  "name": "cobblemon:pokemon_model",
+                  "weight": 2,
+                  "functions": [
+                    {
+                      "function": "minecraft:set_components",
+                      "components": {
+                        "cobblemon:pokemon_item": {
+                          "species": "cobblemon:articuno",
+                          "aspects": ["galarian"]
+                        },
+                        "minecraft:max_stack_size": 64
+                      }
+                    }
+                  ]
+
+                },
+                {
+                  "type": "minecraft:item",
+                  "name": "cobblemon:pokemon_model",
+                  "weight": 2,
+                  "functions": [
+                    {
+                      "function": "minecraft:set_components",
+                      "components": {
+                        "cobblemon:pokemon_item": {
+                          "species": "cobblemon:zapdos",
+                          "aspects": []
+                        },
+                        "minecraft:max_stack_size": 64
+                      }
+                    }
+                  ]
+
+                },
+                {
+                  "type": "minecraft:item",
+                  "name": "cobblemon:pokemon_model",
+                  "weight": 2,
+                  "functions": [
+                    {
+                      "function": "minecraft:set_components",
+                      "components": {
+                        "cobblemon:pokemon_item": {
+                          "species": "cobblemon:zapdos",
+                          "aspects": ["galarian"]
+                        },
+                        "minecraft:max_stack_size": 64
+                      }
+                    }
+                  ]
+
+                },
+                {
+                  "type": "minecraft:item",
+                  "name": "cobblemon:pokemon_model",
+                  "weight": 2,
+                  "functions": [
+                    {
+                      "function": "minecraft:set_components",
+                      "components": {
+                        "cobblemon:pokemon_item": {
+                          "species": "cobblemon:moltres",
+                          "aspects": []
+                        },
+                        "minecraft:max_stack_size": 64
+                      }
+                    }
+                  ]
+
+                },
+                {
+                  "type": "minecraft:item",
+                  "name": "cobblemon:pokemon_model",
+                  "weight": 2,
+                  "functions": [
+                    {
+                      "function": "minecraft:set_components",
+                      "components": {
+                        "cobblemon:pokemon_item": {
+                          "species": "cobblemon:moltres",
+                          "aspects": ["galarian"]
+                        },
+                        "minecraft:max_stack_size": 64
+                      }
+                    }
+                  ]
+
+                },
+                {
+                  "type": "minecraft:item",
+                  "name": "cobblemon:pokemon_model",
+                  "weight": 2,
+                  "functions": [
+                    {
+                      "function": "minecraft:set_components",
+                      "components": {
+                        "cobblemon:pokemon_item": {
+                          "species": "cobblemon:dragonite",
+                          "aspects": []
+                        },
+                        "minecraft:max_stack_size": 64
+                      }
+                    }
+                  ]
+
+                },
+                {
+                  "type": "minecraft:item",
+                  "name": "cobblemon:pokemon_model",
+                  "weight": 2,
+                  "functions": [
+                    {
+                      "function": "minecraft:set_components",
+                      "components": {
+                        "cobblemon:pokemon_item": {
+                          "species": "cobblemon:mewtwo",
+                          "aspects": []
+                        },
+                        "minecraft:max_stack_size": 64
+                      }
+                    }
+                  ]
+
+                },
+                {
+                  "type": "minecraft:item",
+                  "name": "cobblemon:pokemon_model",
+                  "weight": 2,
+                  "functions": [
+                    {
+                      "function": "minecraft:set_components",
+                      "components": {
+                        "cobblemon:pokemon_item": {
+                          "species": "cobblemon:mew",
+                          "aspects": []
+                        },
+                        "minecraft:max_stack_size": 64
+                      }
+                    }
+                  ]
+
+                },
+                {
+                  "type": "minecraft:item",
+                  "name": "cobblemon:pokemon_model",
+                  "weight": 2,
+                  "functions": [
+                    {
+                      "function": "minecraft:set_components",
+                      "components": {
+                        "cobblemon:pokemon_item": {
+                          "species": "cobblemon:meganium",
+                          "aspects": []
+                        },
+                        "minecraft:max_stack_size": 64
+                      }
+                    }
+                  ]
+
+                },
+                {
+                  "type": "minecraft:item",
+                  "name": "cobblemon:pokemon_model",
+                  "weight": 2,
+                  "functions": [
+                    {
+                      "function": "minecraft:set_components",
+                      "components": {
+                        "cobblemon:pokemon_item": {
+                          "species": "cobblemon:typhlosion",
+                          "aspects": []
+                        },
+                        "minecraft:max_stack_size": 64
+                      }
+                    }
+                  ]
+
+                },
+                {
+                  "type": "minecraft:item",
+                  "name": "cobblemon:pokemon_model",
+                  "weight": 2,
+                  "functions": [
+                    {
+                      "function": "minecraft:set_components",
+                      "components": {
+                        "cobblemon:pokemon_item": {
+                          "species": "cobblemon:typhlosion",
+                          "aspects": ["hisuian"]
+                        },
+                        "minecraft:max_stack_size": 64
+                      }
+                    }
+                  ]
+
+                },
+                {
+                  "type": "minecraft:item",
+                  "name": "cobblemon:pokemon_model",
+                  "weight": 2,
+                  "functions": [
+                    {
+                      "function": "minecraft:set_components",
+                      "components": {
+                        "cobblemon:pokemon_item": {
+                          "species": "cobblemon:feraligatr",
+                          "aspects": []
+                        },
+                        "minecraft:max_stack_size": 64
+                      }
+                    }
+                  ]
+
+                },
+                {
+                  "type": "minecraft:item",
+                  "name": "cobblemon:pokemon_model",
+                  "weight": 2,
+                  "functions": [
+                    {
+                      "function": "minecraft:set_components",
+                      "components": {
+                        "cobblemon:pokemon_item": {
+                          "species": "cobblemon:unown",
+                          "aspects": ["character-!"]
+                        },
+                        "minecraft:max_stack_size": 64
+                      }
+                    }
+                  ]
+
+                },
+                {
+                  "type": "minecraft:item",
+                  "name": "cobblemon:pokemon_model",
+                  "weight": 2,
+                  "functions": [
+                    {
+                      "function": "minecraft:set_components",
+                      "components": {
+                        "cobblemon:pokemon_item": {
+                          "species": "cobblemon:unown",
+                          "aspects": ["character-?"]
+                        },
+                        "minecraft:max_stack_size": 64
+                      }
+                    }
+                  ]
+
+                },
+                {
+                  "type": "minecraft:item",
+                  "name": "cobblemon:pokemon_model",
+                  "weight": 2,
+                  "functions": [
+                    {
+                      "function": "minecraft:set_components",
+                      "components": {
+                        "cobblemon:pokemon_item": {
+                          "species": "cobblemon:raikou",
+                          "aspects": []
+                        },
+                        "minecraft:max_stack_size": 64
+                      }
+                    }
+                  ]
+
+                },
+                {
+                  "type": "minecraft:item",
+                  "name": "cobblemon:pokemon_model",
+                  "weight": 2,
+                  "functions": [
+                    {
+                      "function": "minecraft:set_components",
+                      "components": {
+                        "cobblemon:pokemon_item": {
+                          "species": "cobblemon:entei",
+                          "aspects": []
+                        },
+                        "minecraft:max_stack_size": 64
+                      }
+                    }
+                  ]
+
+                },
+                {
+                  "type": "minecraft:item",
+                  "name": "cobblemon:pokemon_model",
+                  "weight": 2,
+                  "functions": [
+                    {
+                      "function": "minecraft:set_components",
+                      "components": {
+                        "cobblemon:pokemon_item": {
+                          "species": "cobblemon:suicune",
+                          "aspects": []
+                        },
+                        "minecraft:max_stack_size": 64
+                      }
+                    }
+                  ]
+
+                },
+                {
+                  "type": "minecraft:item",
+                  "name": "cobblemon:pokemon_model",
+                  "weight": 2,
+                  "functions": [
+                    {
+                      "function": "minecraft:set_components",
+                      "components": {
+                        "cobblemon:pokemon_item": {
+                          "species": "cobblemon:tyranitar",
+                          "aspects": []
+                        },
+                        "minecraft:max_stack_size": 64
+                      }
+                    }
+                  ]
+
+                },
+                {
+                  "type": "minecraft:item",
+                  "name": "cobblemon:pokemon_model",
+                  "weight": 2,
+                  "functions": [
+                    {
+                      "function": "minecraft:set_components",
+                      "components": {
+                        "cobblemon:pokemon_item": {
+                          "species": "cobblemon:lugia",
+                          "aspects": []
+                        },
+                        "minecraft:max_stack_size": 64
+                      }
+                    }
+                  ]
+
+                },
+                {
+                  "type": "minecraft:item",
+                  "name": "cobblemon:pokemon_model",
+                  "weight": 2,
+                  "functions": [
+                    {
+                      "function": "minecraft:set_components",
+                      "components": {
+                        "cobblemon:pokemon_item": {
+                          "species": "cobblemon:hooh",
+                          "aspects": []
+                        },
+                        "minecraft:max_stack_size": 64
+                      }
+                    }
+                  ]
+
+                },
+                {
+                  "type": "minecraft:item",
+                  "name": "cobblemon:pokemon_model",
+                  "weight": 2,
+                  "functions": [
+                    {
+                      "function": "minecraft:set_components",
+                      "components": {
+                        "cobblemon:pokemon_item": {
+                          "species": "cobblemon:celebi",
+                          "aspects": []
+                        },
+                        "minecraft:max_stack_size": 64
+                      }
+                    }
+                  ]
+
+                },
+                {
+                  "type": "minecraft:item",
+                  "name": "cobblemon:pokemon_model",
+                  "weight": 2,
+                  "functions": [
+                    {
+                      "function": "minecraft:set_components",
+                      "components": {
+                        "cobblemon:pokemon_item": {
+                          "species": "cobblemon:sceptile",
+                          "aspects": []
+                        },
+                        "minecraft:max_stack_size": 64
+                      }
+                    }
+                  ]
+
+                },
+                {
+                  "type": "minecraft:item",
+                  "name": "cobblemon:pokemon_model",
+                  "weight": 2,
+                  "functions": [
+                    {
+                      "function": "minecraft:set_components",
+                      "components": {
+                        "cobblemon:pokemon_item": {
+                          "species": "cobblemon:blaziken",
+                          "aspects": []
+                        },
+                        "minecraft:max_stack_size": 64
+                      }
+                    }
+                  ]
+
+                },
+                {
+                  "type": "minecraft:item",
+                  "name": "cobblemon:pokemon_model",
+                  "weight": 2,
+                  "functions": [
+                    {
+                      "function": "minecraft:set_components",
+                      "components": {
+                        "cobblemon:pokemon_item": {
+                          "species": "cobblemon:swampert",
+                          "aspects": []
+                        },
+                        "minecraft:max_stack_size": 64
+                      }
+                    }
+                  ]
+
+                },
+                {
+                  "type": "minecraft:item",
+                  "name": "cobblemon:pokemon_model",
+                  "weight": 2,
+                  "functions": [
+                    {
+                      "function": "minecraft:set_components",
+                      "components": {
+                        "cobblemon:pokemon_item": {
+                          "species": "cobblemon:feebas",
+                          "aspects": []
+                        },
+                        "minecraft:max_stack_size": 64
+                      }
+                    }
+                  ]
+
+                },
+                {
+                  "type": "minecraft:item",
+                  "name": "cobblemon:pokemon_model",
+                  "weight": 2,
+                  "functions": [
+                    {
+                      "function": "minecraft:set_components",
+                      "components": {
+                        "cobblemon:pokemon_item": {
+                          "species": "cobblemon:milotic",
+                          "aspects": []
+                        },
+                        "minecraft:max_stack_size": 64
+                      }
+                    }
+                  ]
+
+                },
+                {
+                  "type": "minecraft:item",
+                  "name": "cobblemon:pokemon_model",
+                  "weight": 2,
+                  "functions": [
+                    {
+                      "function": "minecraft:set_components",
+                      "components": {
+                        "cobblemon:pokemon_item": {
+                          "species": "cobblemon:salamence",
+                          "aspects": []
+                        },
+                        "minecraft:max_stack_size": 64
+                      }
+                    }
+                  ]
+
+                },
+                {
+                  "type": "minecraft:item",
+                  "name": "cobblemon:pokemon_model",
+                  "weight": 2,
+                  "functions": [
+                    {
+                      "function": "minecraft:set_components",
+                      "components": {
+                        "cobblemon:pokemon_item": {
+                          "species": "cobblemon:metagross",
+                          "aspects": []
+                        },
+                        "minecraft:max_stack_size": 64
+                      }
+                    }
+                  ]
+
+                },
+                {
+                  "type": "minecraft:item",
+                  "name": "cobblemon:pokemon_model",
+                  "weight": 2,
+                  "functions": [
+                    {
+                      "function": "minecraft:set_components",
+                      "components": {
+                        "cobblemon:pokemon_item": {
+                          "species": "cobblemon:regirock",
+                          "aspects": []
+                        },
+                        "minecraft:max_stack_size": 64
+                      }
+                    }
+                  ]
+
+                },
+                {
+                  "type": "minecraft:item",
+                  "name": "cobblemon:pokemon_model",
+                  "weight": 2,
+                  "functions": [
+                    {
+                      "function": "minecraft:set_components",
+                      "components": {
+                        "cobblemon:pokemon_item": {
+                          "species": "cobblemon:regice",
+                          "aspects": []
+                        },
+                        "minecraft:max_stack_size": 64
+                      }
+                    }
+                  ]
+
+                },
+                {
+                  "type": "minecraft:item",
+                  "name": "cobblemon:pokemon_model",
+                  "weight": 2,
+                  "functions": [
+                    {
+                      "function": "minecraft:set_components",
+                      "components": {
+                        "cobblemon:pokemon_item": {
+                          "species": "cobblemon:registeel",
+                          "aspects": []
+                        },
+                        "minecraft:max_stack_size": 64
+                      }
+                    }
+                  ]
+
+                },
+                {
+                  "type": "minecraft:item",
+                  "name": "cobblemon:pokemon_model",
+                  "weight": 2,
+                  "functions": [
+                    {
+                      "function": "minecraft:set_components",
+                      "components": {
+                        "cobblemon:pokemon_item": {
+                          "species": "cobblemon:latias",
+                          "aspects": []
+                        },
+                        "minecraft:max_stack_size": 64
+                      }
+                    }
+                  ]
+
+                },
+                {
+                  "type": "minecraft:item",
+                  "name": "cobblemon:pokemon_model",
+                  "weight": 2,
+                  "functions": [
+                    {
+                      "function": "minecraft:set_components",
+                      "components": {
+                        "cobblemon:pokemon_item": {
+                          "species": "cobblemon:latios",
+                          "aspects": []
+                        },
+                        "minecraft:max_stack_size": 64
+                      }
+                    }
+                  ]
+
+                },
+                {
+                  "type": "minecraft:item",
+                  "name": "cobblemon:pokemon_model",
+                  "weight": 2,
+                  "functions": [
+                    {
+                      "function": "minecraft:set_components",
+                      "components": {
+                        "cobblemon:pokemon_item": {
+                          "species": "cobblemon:kyogre",
+                          "aspects": []
+                        },
+                        "minecraft:max_stack_size": 64
+                      }
+                    }
+                  ]
+
+                },
+                {
+                  "type": "minecraft:item",
+                  "name": "cobblemon:pokemon_model",
+                  "weight": 2,
+                  "functions": [
+                    {
+                      "function": "minecraft:set_components",
+                      "components": {
+                        "cobblemon:pokemon_item": {
+                          "species": "cobblemon:groudon",
+                          "aspects": []
+                        },
+                        "minecraft:max_stack_size": 64
+                      }
+                    }
+                  ]
+
+                },
+                {
+                  "type": "minecraft:item",
+                  "name": "cobblemon:pokemon_model",
+                  "weight": 2,
+                  "functions": [
+                    {
+                      "function": "minecraft:set_components",
+                      "components": {
+                        "cobblemon:pokemon_item": {
+                          "species": "cobblemon:rayquaza",
+                          "aspects": []
+                        },
+                        "minecraft:max_stack_size": 64
+                      }
+                    }
+                  ]
+
+                },
+                {
+                  "type": "minecraft:item",
+                  "name": "cobblemon:pokemon_model",
+                  "weight": 2,
+                  "functions": [
+                    {
+                      "function": "minecraft:set_components",
+                      "components": {
+                        "cobblemon:pokemon_item": {
+                          "species": "cobblemon:jirachi",
+                          "aspects": []
+                        },
+                        "minecraft:max_stack_size": 64
+                      }
+                    }
+                  ]
+
+                },
+                {
+                  "type": "minecraft:item",
+                  "name": "cobblemon:pokemon_model",
+                  "weight": 2,
+                  "functions": [
+                    {
+                      "function": "minecraft:set_components",
+                      "components": {
+                        "cobblemon:pokemon_item": {
+                          "species": "cobblemon:deoxys",
+                          "aspects": ["normal-forme"]
+                        },
+                        "minecraft:max_stack_size": 64
+                      }
+                    }
+                  ]
+
+                },
+                {
+                  "type": "minecraft:item",
+                  "name": "cobblemon:pokemon_model",
+                  "weight": 2,
+                  "functions": [
+                    {
+                      "function": "minecraft:set_components",
+                      "components": {
+                        "cobblemon:pokemon_item": {
+                          "species": "cobblemon:deoxys",
+                          "aspects": ["attack-forme"]
+                        },
+                        "minecraft:max_stack_size": 64
+                      }
+                    }
+                  ]
+
+                },
+                {
+                  "type": "minecraft:item",
+                  "name": "cobblemon:pokemon_model",
+                  "weight": 2,
+                  "functions": [
+                    {
+                      "function": "minecraft:set_components",
+                      "components": {
+                        "cobblemon:pokemon_item": {
+                          "species": "cobblemon:deoxys",
+                          "aspects": ["speed-forme"]
+                        },
+                        "minecraft:max_stack_size": 64
+                      }
+                    }
+                  ]
+
+                },
+                {
+                  "type": "minecraft:item",
+                  "name": "cobblemon:pokemon_model",
+                  "weight": 2,
+                  "functions": [
+                    {
+                      "function": "minecraft:set_components",
+                      "components": {
+                        "cobblemon:pokemon_item": {
+                          "species": "cobblemon:deoxys",
+                          "aspects": ["defense-forme"]
+                        },
+                        "minecraft:max_stack_size": 64
+                      }
+                    }
+                  ]
+
+                },
+                {
+                  "type": "minecraft:item",
+                  "name": "cobblemon:pokemon_model",
+                  "weight": 2,
+                  "functions": [
+                    {
+                      "function": "minecraft:set_components",
+                      "components": {
+                        "cobblemon:pokemon_item": {
+                          "species": "cobblemon:torterra",
+                          "aspects": []
+                        },
+                        "minecraft:max_stack_size": 64
+                      }
+                    }
+                  ]
+
+                },
+                {
+                  "type": "minecraft:item",
+                  "name": "cobblemon:pokemon_model",
+                  "weight": 2,
+                  "functions": [
+                    {
+                      "function": "minecraft:set_components",
+                      "components": {
+                        "cobblemon:pokemon_item": {
+                          "species": "cobblemon:infernape",
+                          "aspects": []
+                        },
+                        "minecraft:max_stack_size": 64
+                      }
+                    }
+                  ]
+
+                },
+                {
+                  "type": "minecraft:item",
+                  "name": "cobblemon:pokemon_model",
+                  "weight": 2,
+                  "functions": [
+                    {
+                      "function": "minecraft:set_components",
+                      "components": {
+                        "cobblemon:pokemon_item": {
+                          "species": "cobblemon:empoleon",
+                          "aspects": []
+                        },
+                        "minecraft:max_stack_size": 64
+                      }
+                    }
+                  ]
+
+                },
+                {
+                  "type": "minecraft:item",
+                  "name": "cobblemon:pokemon_model",
+                  "weight": 2,
+                  "functions": [
+                    {
+                      "function": "minecraft:set_components",
+                      "components": {
+                        "cobblemon:pokemon_item": {
+                          "species": "cobblemon:garchomp",
+                          "aspects": []
+                        },
+                        "minecraft:max_stack_size": 64
+                      }
+                    }
+                  ]
+
+                },
+                {
+                  "type": "minecraft:item",
+                  "name": "cobblemon:pokemon_model",
+                  "weight": 2,
+                  "functions": [
+                    {
+                      "function": "minecraft:set_components",
+                      "components": {
+                        "cobblemon:pokemon_item": {
+                          "species": "cobblemon:uxie",
+                          "aspects": []
+                        },
+                        "minecraft:max_stack_size": 64
+                      }
+                    }
+                  ]
+
+                },
+                {
+                  "type": "minecraft:item",
+                  "name": "cobblemon:pokemon_model",
+                  "weight": 2,
+                  "functions": [
+                    {
+                      "function": "minecraft:set_components",
+                      "components": {
+                        "cobblemon:pokemon_item": {
+                          "species": "cobblemon:mesprit",
+                          "aspects": []
+                        },
+                        "minecraft:max_stack_size": 64
+                      }
+                    }
+                  ]
+
+                },
+                {
+                  "type": "minecraft:item",
+                  "name": "cobblemon:pokemon_model",
+                  "weight": 2,
+                  "functions": [
+                    {
+                      "function": "minecraft:set_components",
+                      "components": {
+                        "cobblemon:pokemon_item": {
+                          "species": "cobblemon:azelf",
+                          "aspects": []
+                        },
+                        "minecraft:max_stack_size": 64
+                      }
+                    }
+                  ]
+
+                },
+                {
+                  "type": "minecraft:item",
+                  "name": "cobblemon:pokemon_model",
+                  "weight": 2,
+                  "functions": [
+                    {
+                      "function": "minecraft:set_components",
+                      "components": {
+                        "cobblemon:pokemon_item": {
+                          "species": "cobblemon:dialga",
+                          "aspects": ["altered-forme"]
+                        },
+                        "minecraft:max_stack_size": 64
+                      }
+                    }
+                  ]
+
+                },
+                {
+                  "type": "minecraft:item",
+                  "name": "cobblemon:pokemon_model",
+                  "weight": 2,
+                  "functions": [
+                    {
+                      "function": "minecraft:set_components",
+                      "components": {
+                        "cobblemon:pokemon_item": {
+                          "species": "cobblemon:dialga",
+                          "aspects": ["origin-forme"]
+                        },
+                        "minecraft:max_stack_size": 64
+                      }
+                    }
+                  ]
+
+                },
+                {
+                  "type": "minecraft:item",
+                  "name": "cobblemon:pokemon_model",
+                  "weight": 2,
+                  "functions": [
+                    {
+                      "function": "minecraft:set_components",
+                      "components": {
+                        "cobblemon:pokemon_item": {
+                          "species": "cobblemon:palkia",
+                          "aspects": ["altered-forme"]
+                        },
+                        "minecraft:max_stack_size": 64
+                      }
+                    }
+                  ]
+
+                },
+                {
+                  "type": "minecraft:item",
+                  "name": "cobblemon:pokemon_model",
+                  "weight": 2,
+                  "functions": [
+                    {
+                      "function": "minecraft:set_components",
+                      "components": {
+                        "cobblemon:pokemon_item": {
+                          "species": "cobblemon:palkia",
+                          "aspects": ["origin-forme"]
+                        },
+                        "minecraft:max_stack_size": 64
+                      }
+                    }
+                  ]
+
+                },
+                {
+                  "type": "minecraft:item",
+                  "name": "cobblemon:pokemon_model",
+                  "weight": 2,
+                  "functions": [
+                    {
+                      "function": "minecraft:set_components",
+                      "components": {
+                        "cobblemon:pokemon_item": {
+                          "species": "cobblemon:heatran",
+                          "aspects": []
+                        },
+                        "minecraft:max_stack_size": 64
+                      }
+                    }
+                  ]
+
+                },
+                {
+                  "type": "minecraft:item",
+                  "name": "cobblemon:pokemon_model",
+                  "weight": 2,
+                  "functions": [
+                    {
+                      "function": "minecraft:set_components",
+                      "components": {
+                        "cobblemon:pokemon_item": {
+                          "species": "cobblemon:regigigas",
+                          "aspects": []
+                        },
+                        "minecraft:max_stack_size": 64
+                      }
+                    }
+                  ]
+
+                },
+                {
+                  "type": "minecraft:item",
+                  "name": "cobblemon:pokemon_model",
+                  "weight": 2,
+                  "functions": [
+                    {
+                      "function": "minecraft:set_components",
+                      "components": {
+                        "cobblemon:pokemon_item": {
+                          "species": "cobblemon:giratina",
+                          "aspects": ["altered-forme"]
+                        },
+                        "minecraft:max_stack_size": 64
+                      }
+                    }
+                  ]
+
+                },
+                {
+                  "type": "minecraft:item",
+                  "name": "cobblemon:pokemon_model",
+                  "weight": 2,
+                  "functions": [
+                    {
+                      "function": "minecraft:set_components",
+                      "components": {
+                        "cobblemon:pokemon_item": {
+                          "species": "cobblemon:giratina",
+                          "aspects": ["origin-forme"]
+                        },
+                        "minecraft:max_stack_size": 64
+                      }
+                    }
+                  ]
+
+                },
+                {
+                  "type": "minecraft:item",
+                  "name": "cobblemon:pokemon_model",
+                  "weight": 2,
+                  "functions": [
+                    {
+                      "function": "minecraft:set_components",
+                      "components": {
+                        "cobblemon:pokemon_item": {
+                          "species": "cobblemon:cresselia",
+                          "aspects": []
+                        },
+                        "minecraft:max_stack_size": 64
+                      }
+                    }
+                  ]
+
+                },
+                {
+                  "type": "minecraft:item",
+                  "name": "cobblemon:pokemon_model",
+                  "weight": 2,
+                  "functions": [
+                    {
+                      "function": "minecraft:set_components",
+                      "components": {
+                        "cobblemon:pokemon_item": {
+                          "species": "cobblemon:phione",
+                          "aspects": []
+                        },
+                        "minecraft:max_stack_size": 64
+                      }
+                    }
+                  ]
+
+                },
+                {
+                  "type": "minecraft:item",
+                  "name": "cobblemon:pokemon_model",
+                  "weight": 2,
+                  "functions": [
+                    {
+                      "function": "minecraft:set_components",
+                      "components": {
+                        "cobblemon:pokemon_item": {
+                          "species": "cobblemon:manaphy",
+                          "aspects": []
+                        },
+                        "minecraft:max_stack_size": 64
+                      }
+                    }
+                  ]
+
+                },
+                {
+                  "type": "minecraft:item",
+                  "name": "cobblemon:pokemon_model",
+                  "weight": 2,
+                  "functions": [
+                    {
+                      "function": "minecraft:set_components",
+                      "components": {
+                        "cobblemon:pokemon_item": {
+                          "species": "cobblemon:darkrai",
+                          "aspects": []
+                        },
+                        "minecraft:max_stack_size": 64
+                      }
+                    }
+                  ]
+
+                },
+                {
+                  "type": "minecraft:item",
+                  "name": "cobblemon:pokemon_model",
+                  "weight": 2,
+                  "functions": [
+                    {
+                      "function": "minecraft:set_components",
+                      "components": {
+                        "cobblemon:pokemon_item": {
+                          "species": "cobblemon:shaymin",
+                          "aspects": ["land-forme"]
+                        },
+                        "minecraft:max_stack_size": 64
+                      }
+                    }
+                  ]
+
+                },
+                {
+                  "type": "minecraft:item",
+                  "name": "cobblemon:pokemon_model",
+                  "weight": 2,
+                  "functions": [
+                    {
+                      "function": "minecraft:set_components",
+                      "components": {
+                        "cobblemon:pokemon_item": {
+                          "species": "cobblemon:shaymin",
+                          "aspects": ["sky-forme"]
+                        },
+                        "minecraft:max_stack_size": 64
+                      }
+                    }
+                  ]
+
+                },
+                {
+                  "type": "minecraft:item",
+                  "name": "cobblemon:pokemon_model",
+                  "weight": 2,
+                  "functions": [
+                    {
+                      "function": "minecraft:set_components",
+                      "components": {
+                        "cobblemon:pokemon_item": {
+                          "species": "cobblemon:arceus",
+                          "aspects": []
+                        },
+                        "minecraft:max_stack_size": 64
+                      }
+                    }
+                  ]
+
+                },
+                {
+                  "type": "minecraft:item",
+                  "name": "cobblemon:pokemon_model",
+                  "weight": 2,
+                  "functions": [
+                    {
+                      "function": "minecraft:set_components",
+                      "components": {
+                        "cobblemon:pokemon_item": {
+                          "species": "cobblemon:arceus",
+                          "aspects": ["water-plate"]
+                        },
+                        "minecraft:max_stack_size": 64
+                      }
+                    }
+                  ]
+
+                },
+                {
+                  "type": "minecraft:item",
+                  "name": "cobblemon:pokemon_model",
+                  "weight": 2,
+                  "functions": [
+                    {
+                      "function": "minecraft:set_components",
+                      "components": {
+                        "cobblemon:pokemon_item": {
+                          "species": "cobblemon:arceus",
+                          "aspects": ["fire-plate"]
+                        },
+                        "minecraft:max_stack_size": 64
+                      }
+                    }
+                  ]
+
+                },
+                {
+                  "type": "minecraft:item",
+                  "name": "cobblemon:pokemon_model",
+                  "weight": 2,
+                  "functions": [
+                    {
+                      "function": "minecraft:set_components",
+                      "components": {
+                        "cobblemon:pokemon_item": {
+                          "species": "cobblemon:arceus",
+                          "aspects": ["grass-plate"]
+                        },
+                        "minecraft:max_stack_size": 64
+                      }
+                    }
+                  ]
+
+                },
+                {
+                  "type": "minecraft:item",
+                  "name": "cobblemon:pokemon_model",
+                  "weight": 2,
+                  "functions": [
+                    {
+                      "function": "minecraft:set_components",
+                      "components": {
+                        "cobblemon:pokemon_item": {
+                          "species": "cobblemon:arceus",
+                          "aspects": ["fighting-plate"]
+                        },
+                        "minecraft:max_stack_size": 64
+                      }
+                    }
+                  ]
+
+                },
+                {
+                  "type": "minecraft:item",
+                  "name": "cobblemon:pokemon_model",
+                  "weight": 2,
+                  "functions": [
+                    {
+                      "function": "minecraft:set_components",
+                      "components": {
+                        "cobblemon:pokemon_item": {
+                          "species": "cobblemon:arceus",
+                          "aspects": ["flying-plate"]
+                        },
+                        "minecraft:max_stack_size": 64
+                      }
+                    }
+                  ]
+
+                },
+                {
+                  "type": "minecraft:item",
+                  "name": "cobblemon:pokemon_model",
+                  "weight": 2,
+                  "functions": [
+                    {
+                      "function": "minecraft:set_components",
+                      "components": {
+                        "cobblemon:pokemon_item": {
+                          "species": "cobblemon:arceus",
+                          "aspects": ["poison-plate"]
+                        },
+                        "minecraft:max_stack_size": 64
+                      }
+                    }
+                  ]
+
+                },
+                {
+                  "type": "minecraft:item",
+                  "name": "cobblemon:pokemon_model",
+                  "weight": 2,
+                  "functions": [
+                    {
+                      "function": "minecraft:set_components",
+                      "components": {
+                        "cobblemon:pokemon_item": {
+                          "species": "cobblemon:arceus",
+                          "aspects": ["ground-plate"]
+                        },
+                        "minecraft:max_stack_size": 64
+                      }
+                    }
+                  ]
+
+                },
+                {
+                  "type": "minecraft:item",
+                  "name": "cobblemon:pokemon_model",
+                  "weight": 2,
+                  "functions": [
+                    {
+                      "function": "minecraft:set_components",
+                      "components": {
+                        "cobblemon:pokemon_item": {
+                          "species": "cobblemon:arceus",
+                          "aspects": ["rock-plate"]
+                        },
+                        "minecraft:max_stack_size": 64
+                      }
+                    }
+                  ]
+
+                },
+                {
+                  "type": "minecraft:item",
+                  "name": "cobblemon:pokemon_model",
+                  "weight": 2,
+                  "functions": [
+                    {
+                      "function": "minecraft:set_components",
+                      "components": {
+                        "cobblemon:pokemon_item": {
+                          "species": "cobblemon:arceus",
+                          "aspects": ["bug-plate"]
+                        },
+                        "minecraft:max_stack_size": 64
+                      }
+                    }
+                  ]
+
+                },
+                {
+                  "type": "minecraft:item",
+                  "name": "cobblemon:pokemon_model",
+                  "weight": 2,
+                  "functions": [
+                    {
+                      "function": "minecraft:set_components",
+                      "components": {
+                        "cobblemon:pokemon_item": {
+                          "species": "cobblemon:arceus",
+                          "aspects": ["ghost-plate"]
+                        },
+                        "minecraft:max_stack_size": 64
+                      }
+                    }
+                  ]
+
+                },
+                {
+                  "type": "minecraft:item",
+                  "name": "cobblemon:pokemon_model",
+                  "weight": 2,
+                  "functions": [
+                    {
+                      "function": "minecraft:set_components",
+                      "components": {
+                        "cobblemon:pokemon_item": {
+                          "species": "cobblemon:arceus",
+                          "aspects": ["steel-plate"]
+                        },
+                        "minecraft:max_stack_size": 64
+                      }
+                    }
+                  ]
+
+                },
+                {
+                  "type": "minecraft:item",
+                  "name": "cobblemon:pokemon_model",
+                  "weight": 2,
+                  "functions": [
+                    {
+                      "function": "minecraft:set_components",
+                      "components": {
+                        "cobblemon:pokemon_item": {
+                          "species": "cobblemon:arceus",
+                          "aspects": ["electric-plate"]
+                        },
+                        "minecraft:max_stack_size": 64
+                      }
+                    }
+                  ]
+
+                },
+                {
+                  "type": "minecraft:item",
+                  "name": "cobblemon:pokemon_model",
+                  "weight": 2,
+                  "functions": [
+                    {
+                      "function": "minecraft:set_components",
+                      "components": {
+                        "cobblemon:pokemon_item": {
+                          "species": "cobblemon:arceus",
+                          "aspects": ["psychic-plate"]
+                        },
+                        "minecraft:max_stack_size": 64
+                      }
+                    }
+                  ]
+
+                },
+                {
+                  "type": "minecraft:item",
+                  "name": "cobblemon:pokemon_model",
+                  "weight": 2,
+                  "functions": [
+                    {
+                      "function": "minecraft:set_components",
+                      "components": {
+                        "cobblemon:pokemon_item": {
+                          "species": "cobblemon:arceus",
+                          "aspects": ["ice-plate"]
+                        },
+                        "minecraft:max_stack_size": 64
+                      }
+                    }
+                  ]
+
+                },
+                {
+                  "type": "minecraft:item",
+                  "name": "cobblemon:pokemon_model",
+                  "weight": 2,
+                  "functions": [
+                    {
+                      "function": "minecraft:set_components",
+                      "components": {
+                        "cobblemon:pokemon_item": {
+                          "species": "cobblemon:arceus",
+                          "aspects": ["dragon-plate"]
+                        },
+                        "minecraft:max_stack_size": 64
+                      }
+                    }
+                  ]
+
+                },
+                {
+                  "type": "minecraft:item",
+                  "name": "cobblemon:pokemon_model",
+                  "weight": 2,
+                  "functions": [
+                    {
+                      "function": "minecraft:set_components",
+                      "components": {
+                        "cobblemon:pokemon_item": {
+                          "species": "cobblemon:arceus",
+                          "aspects": ["dark-plate"]
+                        },
+                        "minecraft:max_stack_size": 64
+                      }
+                    }
+                  ]
+
+                },
+                {
+                  "type": "minecraft:item",
+                  "name": "cobblemon:pokemon_model",
+                  "weight": 2,
+                  "functions": [
+                    {
+                      "function": "minecraft:set_components",
+                      "components": {
+                        "cobblemon:pokemon_item": {
+                          "species": "cobblemon:arceus",
+                          "aspects": ["fairy-plate"]
+                        },
+                        "minecraft:max_stack_size": 64
+                      }
+                    }
+                  ]
+
+                },
+                {
+                  "type": "minecraft:item",
+                  "name": "cobblemon:pokemon_model",
+                  "weight": 2,
+                  "functions": [
+                    {
+                      "function": "minecraft:set_components",
+                      "components": {
+                        "cobblemon:pokemon_item": {
+                          "species": "cobblemon:victini",
+                          "aspects": []
+                        },
+                        "minecraft:max_stack_size": 64
+                      }
+                    }
+                  ]
+
+                },
+                {
+                  "type": "minecraft:item",
+                  "name": "cobblemon:pokemon_model",
+                  "weight": 2,
+                  "functions": [
+                    {
+                      "function": "minecraft:set_components",
+                      "components": {
+                        "cobblemon:pokemon_item": {
+                          "species": "cobblemon:serperior",
+                          "aspects": []
+                        },
+                        "minecraft:max_stack_size": 64
+                      }
+                    }
+                  ]
+
+                },
+                {
+                  "type": "minecraft:item",
+                  "name": "cobblemon:pokemon_model",
+                  "weight": 2,
+                  "functions": [
+                    {
+                      "function": "minecraft:set_components",
+                      "components": {
+                        "cobblemon:pokemon_item": {
+                          "species": "cobblemon:emboar",
+                          "aspects": []
+                        },
+                        "minecraft:max_stack_size": 64
+                      }
+                    }
+                  ]
+
+                },
+                {
+                  "type": "minecraft:item",
+                  "name": "cobblemon:pokemon_model",
+                  "weight": 2,
+                  "functions": [
+                    {
+                      "function": "minecraft:set_components",
+                      "components": {
+                        "cobblemon:pokemon_item": {
+                          "species": "cobblemon:samurott",
+                          "aspects": []
+                        },
+                        "minecraft:max_stack_size": 64
+                      }
+                    }
+                  ]
+
+                },
+                {
+                  "type": "minecraft:item",
+                  "name": "cobblemon:pokemon_model",
+                  "weight": 2,
+                  "functions": [
+                    {
+                      "function": "minecraft:set_components",
+                      "components": {
+                        "cobblemon:pokemon_item": {
+                          "species": "cobblemon:samurott",
+                          "aspects": ["hisuian"]
+                        },
+                        "minecraft:max_stack_size": 64
+                      }
+                    }
+                  ]
+
+                },
+                {
+                  "type": "minecraft:item",
+                  "name": "cobblemon:pokemon_model",
+                  "weight": 2,
+                  "functions": [
+                    {
+                      "function": "minecraft:set_components",
+                      "components": {
+                        "cobblemon:pokemon_item": {
+                          "species": "cobblemon:hydreigon",
+                          "aspects": []
+                        },
+                        "minecraft:max_stack_size": 64
+                      }
+                    }
+                  ]
+
+                },
+                {
+                  "type": "minecraft:item",
+                  "name": "cobblemon:pokemon_model",
+                  "weight": 2,
+                  "functions": [
+                    {
+                      "function": "minecraft:set_components",
+                      "components": {
+                        "cobblemon:pokemon_item": {
+                          "species": "cobblemon:volcarona",
+                          "aspects": []
+                        },
+                        "minecraft:max_stack_size": 64
+                      }
+                    }
+                  ]
+
+                },
+                {
+                  "type": "minecraft:item",
+                  "name": "cobblemon:pokemon_model",
+                  "weight": 2,
+                  "functions": [
+                    {
+                      "function": "minecraft:set_components",
+                      "components": {
+                        "cobblemon:pokemon_item": {
+                          "species": "cobblemon:cobalion",
+                          "aspects": []
+                        },
+                        "minecraft:max_stack_size": 64
+                      }
+                    }
+                  ]
+
+                },
+                {
+                  "type": "minecraft:item",
+                  "name": "cobblemon:pokemon_model",
+                  "weight": 2,
+                  "functions": [
+                    {
+                      "function": "minecraft:set_components",
+                      "components": {
+                        "cobblemon:pokemon_item": {
+                          "species": "cobblemon:terrakion",
+                          "aspects": []
+                        },
+                        "minecraft:max_stack_size": 64
+                      }
+                    }
+                  ]
+
+                },
+                {
+                  "type": "minecraft:item",
+                  "name": "cobblemon:pokemon_model",
+                  "weight": 2,
+                  "functions": [
+                    {
+                      "function": "minecraft:set_components",
+                      "components": {
+                        "cobblemon:pokemon_item": {
+                          "species": "cobblemon:virizion",
+                          "aspects": []
+                        },
+                        "minecraft:max_stack_size": 64
+                      }
+                    }
+                  ]
+
+                },
+                {
+                  "type": "minecraft:item",
+                  "name": "cobblemon:pokemon_model",
+                  "weight": 2,
+                  "functions": [
+                    {
+                      "function": "minecraft:set_components",
+                      "components": {
+                        "cobblemon:pokemon_item": {
+                          "species": "cobblemon:tornadus",
+                          "aspects": ["incarnate-forme"]
+                        },
+                        "minecraft:max_stack_size": 64
+                      }
+                    }
+                  ]
+
+                },
+                {
+                  "type": "minecraft:item",
+                  "name": "cobblemon:pokemon_model",
+                  "weight": 2,
+                  "functions": [
+                    {
+                      "function": "minecraft:set_components",
+                      "components": {
+                        "cobblemon:pokemon_item": {
+                          "species": "cobblemon:tornadus",
+                          "aspects": ["therian-forme"]
+                        },
+                        "minecraft:max_stack_size": 64
+                      }
+                    }
+                  ]
+
+                },
+                {
+                  "type": "minecraft:item",
+                  "name": "cobblemon:pokemon_model",
+                  "weight": 2,
+                  "functions": [
+                    {
+                      "function": "minecraft:set_components",
+                      "components": {
+                        "cobblemon:pokemon_item": {
+                          "species": "cobblemon:thundurus",
+                          "aspects": ["incarnate-forme"]
+                        },
+                        "minecraft:max_stack_size": 64
+                      }
+                    }
+                  ]
+
+                },
+                {
+                  "type": "minecraft:item",
+                  "name": "cobblemon:pokemon_model",
+                  "weight": 2,
+                  "functions": [
+                    {
+                      "function": "minecraft:set_components",
+                      "components": {
+                        "cobblemon:pokemon_item": {
+                          "species": "cobblemon:thundurus",
+                          "aspects": ["therian-forme"]
+                        },
+                        "minecraft:max_stack_size": 64
+                      }
+                    }
+                  ]
+
+                },
+                {
+                  "type": "minecraft:item",
+                  "name": "cobblemon:pokemon_model",
+                  "weight": 2,
+                  "functions": [
+                    {
+                      "function": "minecraft:set_components",
+                      "components": {
+                        "cobblemon:pokemon_item": {
+                          "species": "cobblemon:reshiram",
+                          "aspects": []
+                        },
+                        "minecraft:max_stack_size": 64
+                      }
+                    }
+                  ]
+
+                },
+                {
+                  "type": "minecraft:item",
+                  "name": "cobblemon:pokemon_model",
+                  "weight": 2,
+                  "functions": [
+                    {
+                      "function": "minecraft:set_components",
+                      "components": {
+                        "cobblemon:pokemon_item": {
+                          "species": "cobblemon:zekrom",
+                          "aspects": []
+                        },
+                        "minecraft:max_stack_size": 64
+                      }
+                    }
+                  ]
+
+                },
+                {
+                  "type": "minecraft:item",
+                  "name": "cobblemon:pokemon_model",
+                  "weight": 2,
+                  "functions": [
+                    {
+                      "function": "minecraft:set_components",
+                      "components": {
+                        "cobblemon:pokemon_item": {
+                          "species": "cobblemon:kyurem",
+                          "aspects": []
+                        },
+                        "minecraft:max_stack_size": 64
+                      }
+                    }
+                  ]
+
+                },
+                {
+                  "type": "minecraft:item",
+                  "name": "cobblemon:pokemon_model",
+                  "weight": 2,
+                  "functions": [
+                    {
+                      "function": "minecraft:set_components",
+                      "components": {
+                        "cobblemon:pokemon_item": {
+                          "species": "cobblemon:kyurem",
+                          "aspects": ["white-fusion"]
+                        },
+                        "minecraft:max_stack_size": 64
+                      }
+                    }
+                  ]
+
+                },
+                {
+                  "type": "minecraft:item",
+                  "name": "cobblemon:pokemon_model",
+                  "weight": 2,
+                  "functions": [
+                    {
+                      "function": "minecraft:set_components",
+                      "components": {
+                        "cobblemon:pokemon_item": {
+                          "species": "cobblemon:kyurem",
+                          "aspects": ["black-fusion"]
+                        },
+                        "minecraft:max_stack_size": 64
+                      }
+                    }
+                  ]
+
+                },
+                {
+                  "type": "minecraft:item",
+                  "name": "cobblemon:pokemon_model",
+                  "weight": 2,
+                  "functions": [
+                    {
+                      "function": "minecraft:set_components",
+                      "components": {
+                        "cobblemon:pokemon_item": {
+                          "species": "cobblemon:keldeo",
+                          "aspects": ["ordinary-form"]
+                        },
+                        "minecraft:max_stack_size": 64
+                      }
+                    }
+                  ]
+
+                },
+                {
+                  "type": "minecraft:item",
+                  "name": "cobblemon:pokemon_model",
+                  "weight": 2,
+                  "functions": [
+                    {
+                      "function": "minecraft:set_components",
+                      "components": {
+                        "cobblemon:pokemon_item": {
+                          "species": "cobblemon:keldeo",
+                          "aspects": ["resolute-form"]
+                        },
+                        "minecraft:max_stack_size": 64
+                      }
+                    }
+                  ]
+
+                },
+                {
+                  "type": "minecraft:item",
+                  "name": "cobblemon:pokemon_model",
+                  "weight": 2,
+                  "functions": [
+                    {
+                      "function": "minecraft:set_components",
+                      "components": {
+                        "cobblemon:pokemon_item": {
+                          "species": "cobblemon:meloetta",
+                          "aspects": ["aria-forme"]
+                        },
+                        "minecraft:max_stack_size": 64
+                      }
+                    }
+                  ]
+
+                },
+                {
+                  "type": "minecraft:item",
+                  "name": "cobblemon:pokemon_model",
+                  "weight": 2,
+                  "functions": [
+                    {
+                      "function": "minecraft:set_components",
+                      "components": {
+                        "cobblemon:pokemon_item": {
+                          "species": "cobblemon:meloetta",
+                          "aspects": ["pirouette-forme"]
+                        },
+                        "minecraft:max_stack_size": 64
+                      }
+                    }
+                  ]
+
+                },
+                {
+                  "type": "minecraft:item",
+                  "name": "cobblemon:pokemon_model",
+                  "weight": 2,
+                  "functions": [
+                    {
+                      "function": "minecraft:set_components",
+                      "components": {
+                        "cobblemon:pokemon_item": {
+                          "species": "cobblemon:genesect",
+                          "aspects": []
+                        },
+                        "minecraft:max_stack_size": 64
+                      }
+                    }
+                  ]
+
+                },
+                {
+                  "type": "minecraft:item",
+                  "name": "cobblemon:pokemon_model",
+                  "weight": 2,
+                  "functions": [
+                    {
+                      "function": "minecraft:set_components",
+                      "components": {
+                        "cobblemon:pokemon_item": {
+                          "species": "cobblemon:chesnaught",
+                          "aspects": []
+                        },
+                        "minecraft:max_stack_size": 64
+                      }
+                    }
+                  ]
+
+                },
+                {
+                  "type": "minecraft:item",
+                  "name": "cobblemon:pokemon_model",
+                  "weight": 2,
+                  "functions": [
+                    {
+                      "function": "minecraft:set_components",
+                      "components": {
+                        "cobblemon:pokemon_item": {
+                          "species": "cobblemon:delphox",
+                          "aspects": []
+                        },
+                        "minecraft:max_stack_size": 64
+                      }
+                    }
+                  ]
+
+                },
+                {
+                  "type": "minecraft:item",
+                  "name": "cobblemon:pokemon_model",
+                  "weight": 2,
+                  "functions": [
+                    {
+                      "function": "minecraft:set_components",
+                      "components": {
+                        "cobblemon:pokemon_item": {
+                          "species": "cobblemon:greninja",
+                          "aspects": ["bond"]
+                        },
+                        "minecraft:max_stack_size": 64
+                      }
+                    }
+                  ]
+
+                },
+                {
+                  "type": "minecraft:item",
+                  "name": "cobblemon:pokemon_model",
+                  "weight": 2,
+                  "functions": [
+                    {
+                      "function": "minecraft:set_components",
+                      "components": {
+                        "cobblemon:pokemon_item": {
+                          "species": "cobblemon:greninja",
+                          "aspects": ["ash"]
+                        },
+                        "minecraft:max_stack_size": 64
+                      }
+                    }
+                  ]
+
+                },
+                {
+                  "type": "minecraft:item",
+                  "name": "cobblemon:pokemon_model",
+                  "weight": 2,
+                  "functions": [
+                    {
+                      "function": "minecraft:set_components",
+                      "components": {
+                        "cobblemon:pokemon_item": {
+                          "species": "cobblemon:goodra",
+                          "aspects": []
+                        },
+                        "minecraft:max_stack_size": 64
+                      }
+                    }
+                  ]
+
+                },
+                {
+                  "type": "minecraft:item",
+                  "name": "cobblemon:pokemon_model",
+                  "weight": 2,
+                  "functions": [
+                    {
+                      "function": "minecraft:set_components",
+                      "components": {
+                        "cobblemon:pokemon_item": {
+                          "species": "cobblemon:goodra",
+                          "aspects": ["hisuian"]
+                        },
+                        "minecraft:max_stack_size": 64
+                      }
+                    }
+                  ]
+
+                },
+                {
+                  "type": "minecraft:item",
+                  "name": "cobblemon:pokemon_model",
+                  "weight": 2,
+                  "functions": [
+                    {
+                      "function": "minecraft:set_components",
+                      "components": {
+                        "cobblemon:pokemon_item": {
+                          "species": "cobblemon:xerneas",
+                          "aspects": []
+                        },
+                        "minecraft:max_stack_size": 64
+                      }
+                    }
+                  ]
+
+                },
+                {
+                  "type": "minecraft:item",
+                  "name": "cobblemon:pokemon_model",
+                  "weight": 2,
+                  "functions": [
+                    {
+                      "function": "minecraft:set_components",
+                      "components": {
+                        "cobblemon:pokemon_item": {
+                          "species": "cobblemon:yveltal",
+                          "aspects": []
+                        },
+                        "minecraft:max_stack_size": 64
+                      }
+                    }
+                  ]
+
+                },
+                {
+                  "type": "minecraft:item",
+                  "name": "cobblemon:pokemon_model",
+                  "weight": 2,
+                  "functions": [
+                    {
+                      "function": "minecraft:set_components",
+                      "components": {
+                        "cobblemon:pokemon_item": {
+                          "species": "cobblemon:zygarde",
+                          "aspects": ["50-percent"]
+                        },
+                        "minecraft:max_stack_size": 64
+                      }
+                    }
+                  ]
+
+                },
+                {
+                  "type": "minecraft:item",
+                  "name": "cobblemon:pokemon_model",
+                  "weight": 2,
+                  "functions": [
+                    {
+                      "function": "minecraft:set_components",
+                      "components": {
+                        "cobblemon:pokemon_item": {
+                          "species": "cobblemon:zygarde",
+                          "aspects": ["10-percent"]
+                        },
+                        "minecraft:max_stack_size": 64
+                      }
+                    }
+                  ]
+
+                },
+                {
+                  "type": "minecraft:item",
+                  "name": "cobblemon:pokemon_model",
+                  "weight": 2,
+                  "functions": [
+                    {
+                      "function": "minecraft:set_components",
+                      "components": {
+                        "cobblemon:pokemon_item": {
+                          "species": "cobblemon:zygarde",
+                          "aspects": ["complete-percent"]
+                        },
+                        "minecraft:max_stack_size": 64
+                      }
+                    }
+                  ]
+
+                },
+                {
+                  "type": "minecraft:item",
+                  "name": "cobblemon:pokemon_model",
+                  "weight": 2,
+                  "functions": [
+                    {
+                      "function": "minecraft:set_components",
+                      "components": {
+                        "cobblemon:pokemon_item": {
+                          "species": "cobblemon:diancie",
+                          "aspects": []
+                        },
+                        "minecraft:max_stack_size": 64
+                      }
+                    }
+                  ]
+
+                },
+                {
+                  "type": "minecraft:item",
+                  "name": "cobblemon:pokemon_model",
+                  "weight": 2,
+                  "functions": [
+                    {
+                      "function": "minecraft:set_components",
+                      "components": {
+                        "cobblemon:pokemon_item": {
+                          "species": "cobblemon:hoopa",
+                          "aspects": ["confined"]
+                        },
+                        "minecraft:max_stack_size": 64
+                      }
+                    }
+                  ]
+
+                },
+                {
+                  "type": "minecraft:item",
+                  "name": "cobblemon:pokemon_model",
+                  "weight": 2,
+                  "functions": [
+                    {
+                      "function": "minecraft:set_components",
+                      "components": {
+                        "cobblemon:pokemon_item": {
+                          "species": "cobblemon:hoopa",
+                          "aspects": ["unbound"]
+                        },
+                        "minecraft:max_stack_size": 64
+                      }
+                    }
+                  ]
+
+                },
+                {
+                  "type": "minecraft:item",
+                  "name": "cobblemon:pokemon_model",
+                  "weight": 2,
+                  "functions": [
+                    {
+                      "function": "minecraft:set_components",
+                      "components": {
+                        "cobblemon:pokemon_item": {
+                          "species": "cobblemon:volcanion",
+                          "aspects": []
+                        },
+                        "minecraft:max_stack_size": 64
+                      }
+                    }
+                  ]
+
+                },
+                {
+                  "type": "minecraft:item",
+                  "name": "cobblemon:pokemon_model",
+                  "weight": 2,
+                  "functions": [
+                    {
+                      "function": "minecraft:set_components",
+                      "components": {
+                        "cobblemon:pokemon_item": {
+                          "species": "cobblemon:decidueye",
+                          "aspects": []
+                        },
+                        "minecraft:max_stack_size": 64
+                      }
+                    }
+                  ]
+
+                },
+                {
+                  "type": "minecraft:item",
+                  "name": "cobblemon:pokemon_model",
+                  "weight": 2,
+                  "functions": [
+                    {
+                      "function": "minecraft:set_components",
+                      "components": {
+                        "cobblemon:pokemon_item": {
+                          "species": "cobblemon:decidueye",
+                          "aspects": ["hisuian"]
+                        },
+                        "minecraft:max_stack_size": 64
+                      }
+                    }
+                  ]
+
+                },
+                {
+                  "type": "minecraft:item",
+                  "name": "cobblemon:pokemon_model",
+                  "weight": 2,
+                  "functions": [
+                    {
+                      "function": "minecraft:set_components",
+                      "components": {
+                        "cobblemon:pokemon_item": {
+                          "species": "cobblemon:incineroar",
+                          "aspects": []
+                        },
+                        "minecraft:max_stack_size": 64
+                      }
+                    }
+                  ]
+
+                },
+                {
+                  "type": "minecraft:item",
+                  "name": "cobblemon:pokemon_model",
+                  "weight": 2,
+                  "functions": [
+                    {
+                      "function": "minecraft:set_components",
+                      "components": {
+                        "cobblemon:pokemon_item": {
+                          "species": "cobblemon:primarina",
+                          "aspects": []
+                        },
+                        "minecraft:max_stack_size": 64
+                      }
+                    }
+                  ]
+
+                },
+                {
+                  "type": "minecraft:item",
+                  "name": "cobblemon:pokemon_model",
+                  "weight": 2,
+                  "functions": [
+                    {
+                      "function": "minecraft:set_components",
+                      "components": {
+                        "cobblemon:pokemon_item": {
+                          "species": "cobblemon:typenull",
+                          "aspects": []
+                        },
+                        "minecraft:max_stack_size": 64
+                      }
+                    }
+                  ]
+
+                },
+                {
+                  "type": "minecraft:item",
+                  "name": "cobblemon:pokemon_model",
+                  "weight": 2,
+                  "functions": [
+                    {
+                      "function": "minecraft:set_components",
+                      "components": {
+                        "cobblemon:pokemon_item": {
+                          "species": "cobblemon:silvally",
+                          "aspects": []
+                        },
+                        "minecraft:max_stack_size": 64
+                      }
+                    }
+                  ]
+
+                },
+                {
+                  "type": "minecraft:item",
+                  "name": "cobblemon:pokemon_model",
+                  "weight": 2,
+                  "functions": [
+                    {
+                      "function": "minecraft:set_components",
+                      "components": {
+                        "cobblemon:pokemon_item": {
+                          "species": "cobblemon:kommoo",
+                          "aspects": []
+                        },
+                        "minecraft:max_stack_size": 64
+                      }
+                    }
+                  ]
+
+                },
+                {
+                  "type": "minecraft:item",
+                  "name": "cobblemon:pokemon_model",
+                  "weight": 2,
+                  "functions": [
+                    {
+                      "function": "minecraft:set_components",
+                      "components": {
+                        "cobblemon:pokemon_item": {
+                          "species": "cobblemon:tapukoko",
+                          "aspects": []
+                        },
+                        "minecraft:max_stack_size": 64
+                      }
+                    }
+                  ]
+
+                },
+                {
+                  "type": "minecraft:item",
+                  "name": "cobblemon:pokemon_model",
+                  "weight": 2,
+                  "functions": [
+                    {
+                      "function": "minecraft:set_components",
+                      "components": {
+                        "cobblemon:pokemon_item": {
+                          "species": "cobblemon:tapulele",
+                          "aspects": []
+                        },
+                        "minecraft:max_stack_size": 64
+                      }
+                    }
+                  ]
+
+                },
+                {
+                  "type": "minecraft:item",
+                  "name": "cobblemon:pokemon_model",
+                  "weight": 2,
+                  "functions": [
+                    {
+                      "function": "minecraft:set_components",
+                      "components": {
+                        "cobblemon:pokemon_item": {
+                          "species": "cobblemon:tapubulu",
+                          "aspects": []
+                        },
+                        "minecraft:max_stack_size": 64
+                      }
+                    }
+                  ]
+
+                },
+                {
+                  "type": "minecraft:item",
+                  "name": "cobblemon:pokemon_model",
+                  "weight": 2,
+                  "functions": [
+                    {
+                      "function": "minecraft:set_components",
+                      "components": {
+                        "cobblemon:pokemon_item": {
+                          "species": "cobblemon:tapufini",
+                          "aspects": []
+                        },
+                        "minecraft:max_stack_size": 64
+                      }
+                    }
+                  ]
+
+                },
+                {
+                  "type": "minecraft:item",
+                  "name": "cobblemon:pokemon_model",
+                  "weight": 2,
+                  "functions": [
+                    {
+                      "function": "minecraft:set_components",
+                      "components": {
+                        "cobblemon:pokemon_item": {
+                          "species": "cobblemon:cosmog",
+                          "aspects": []
+                        },
+                        "minecraft:max_stack_size": 64
+                      }
+                    }
+                  ]
+
+                },
+                {
+                  "type": "minecraft:item",
+                  "name": "cobblemon:pokemon_model",
+                  "weight": 2,
+                  "functions": [
+                    {
+                      "function": "minecraft:set_components",
+                      "components": {
+                        "cobblemon:pokemon_item": {
+                          "species": "cobblemon:cosmoem",
+                          "aspects": []
+                        },
+                        "minecraft:max_stack_size": 64
+                      }
+                    }
+                  ]
+
+                },
+                {
+                  "type": "minecraft:item",
+                  "name": "cobblemon:pokemon_model",
+                  "weight": 2,
+                  "functions": [
+                    {
+                      "function": "minecraft:set_components",
+                      "components": {
+                        "cobblemon:pokemon_item": {
+                          "species": "cobblemon:solgaleo",
+                          "aspects": []
+                        },
+                        "minecraft:max_stack_size": 64
+                      }
+                    }
+                  ]
+
+                },
+                {
+                  "type": "minecraft:item",
+                  "name": "cobblemon:pokemon_model",
+                  "weight": 2,
+                  "functions": [
+                    {
+                      "function": "minecraft:set_components",
+                      "components": {
+                        "cobblemon:pokemon_item": {
+                          "species": "cobblemon:lunala",
+                          "aspects": []
+                        },
+                        "minecraft:max_stack_size": 64
+                      }
+                    }
+                  ]
+
+                },
+                {
+                  "type": "minecraft:item",
+                  "name": "cobblemon:pokemon_model",
+                  "weight": 2,
+                  "functions": [
+                    {
+                      "function": "minecraft:set_components",
+                      "components": {
+                        "cobblemon:pokemon_item": {
+                          "species": "cobblemon:nihilego",
+                          "aspects": []
+                        },
+                        "minecraft:max_stack_size": 64
+                      }
+                    }
+                  ]
+
+                },
+                {
+                  "type": "minecraft:item",
+                  "name": "cobblemon:pokemon_model",
+                  "weight": 2,
+                  "functions": [
+                    {
+                      "function": "minecraft:set_components",
+                      "components": {
+                        "cobblemon:pokemon_item": {
+                          "species": "cobblemon:buzzwole",
+                          "aspects": []
+                        },
+                        "minecraft:max_stack_size": 64
+                      }
+                    }
+                  ]
+
+                },
+                {
+                  "type": "minecraft:item",
+                  "name": "cobblemon:pokemon_model",
+                  "weight": 2,
+                  "functions": [
+                    {
+                      "function": "minecraft:set_components",
+                      "components": {
+                        "cobblemon:pokemon_item": {
+                          "species": "cobblemon:pheromosa",
+                          "aspects": []
+                        },
+                        "minecraft:max_stack_size": 64
+                      }
+                    }
+                  ]
+
+                },
+                {
+                  "type": "minecraft:item",
+                  "name": "cobblemon:pokemon_model",
+                  "weight": 2,
+                  "functions": [
+                    {
+                      "function": "minecraft:set_components",
+                      "components": {
+                        "cobblemon:pokemon_item": {
+                          "species": "cobblemon:xurkitree",
+                          "aspects": []
+                        },
+                        "minecraft:max_stack_size": 64
+                      }
+                    }
+                  ]
+
+                },
+                {
+                  "type": "minecraft:item",
+                  "name": "cobblemon:pokemon_model",
+                  "weight": 2,
+                  "functions": [
+                    {
+                      "function": "minecraft:set_components",
+                      "components": {
+                        "cobblemon:pokemon_item": {
+                          "species": "cobblemon:celesteela",
+                          "aspects": []
+                        },
+                        "minecraft:max_stack_size": 64
+                      }
+                    }
+                  ]
+
+                },
+                {
+                  "type": "minecraft:item",
+                  "name": "cobblemon:pokemon_model",
+                  "weight": 2,
+                  "functions": [
+                    {
+                      "function": "minecraft:set_components",
+                      "components": {
+                        "cobblemon:pokemon_item": {
+                          "species": "cobblemon:kartana",
+                          "aspects": []
+                        },
+                        "minecraft:max_stack_size": 64
+                      }
+                    }
+                  ]
+
+                },
+                {
+                  "type": "minecraft:item",
+                  "name": "cobblemon:pokemon_model",
+                  "weight": 2,
+                  "functions": [
+                    {
+                      "function": "minecraft:set_components",
+                      "components": {
+                        "cobblemon:pokemon_item": {
+                          "species": "cobblemon:guzzlord",
+                          "aspects": []
+                        },
+                        "minecraft:max_stack_size": 64
+                      }
+                    }
+                  ]
+
+                },
+                {
+                  "type": "minecraft:item",
+                  "name": "cobblemon:pokemon_model",
+                  "weight": 2,
+                  "functions": [
+                    {
+                      "function": "minecraft:set_components",
+                      "components": {
+                        "cobblemon:pokemon_item": {
+                          "species": "cobblemon:necrozma",
+                          "aspects": []
+                        },
+                        "minecraft:max_stack_size": 64
+                      }
+                    }
+                  ]
+
+                },
+                {
+                  "type": "minecraft:item",
+                  "name": "cobblemon:pokemon_model",
+                  "weight": 2,
+                  "functions": [
+                    {
+                      "function": "minecraft:set_components",
+                      "components": {
+                        "cobblemon:pokemon_item": {
+                          "species": "cobblemon:necrozma",
+                          "aspects": ["dusk-fusion"]
+                        },
+                        "minecraft:max_stack_size": 64
+                      }
+                    }
+                  ]
+
+                },
+                {
+                  "type": "minecraft:item",
+                  "name": "cobblemon:pokemon_model",
+                  "weight": 2,
+                  "functions": [
+                    {
+                      "function": "minecraft:set_components",
+                      "components": {
+                        "cobblemon:pokemon_item": {
+                          "species": "cobblemon:necrozma",
+                          "aspects": ["dawn-fusion"]
+                        },
+                        "minecraft:max_stack_size": 64
+                      }
+                    }
+                  ]
+
+                },
+                {
+                  "type": "minecraft:item",
+                  "name": "cobblemon:pokemon_model",
+                  "weight": 2,
+                  "functions": [
+                    {
+                      "function": "minecraft:set_components",
+                      "components": {
+                        "cobblemon:pokemon_item": {
+                          "species": "cobblemon:necrozma",
+                          "aspects": ["ultra-fusion"]
+                        },
+                        "minecraft:max_stack_size": 64
+                      }
+                    }
+                  ]
+
+                },
+                {
+                  "type": "minecraft:item",
+                  "name": "cobblemon:pokemon_model",
+                  "weight": 2,
+                  "functions": [
+                    {
+                      "function": "minecraft:set_components",
+                      "components": {
+                        "cobblemon:pokemon_item": {
+                          "species": "cobblemon:magearna",
+                          "aspects": []
+                        },
+                        "minecraft:max_stack_size": 64
+                      }
+                    }
+                  ]
+
+                },
+                {
+                  "type": "minecraft:item",
+                  "name": "cobblemon:pokemon_model",
+                  "weight": 2,
+                  "functions": [
+                    {
+                      "function": "minecraft:set_components",
+                      "components": {
+                        "cobblemon:pokemon_item": {
+                          "species": "cobblemon:marshadow",
+                          "aspects": []
+                        },
+                        "minecraft:max_stack_size": 64
+                      }
+                    }
+                  ]
+
+                },
+                {
+                  "type": "minecraft:item",
+                  "name": "cobblemon:pokemon_model",
+                  "weight": 2,
+                  "functions": [
+                    {
+                      "function": "minecraft:set_components",
+                      "components": {
+                        "cobblemon:pokemon_item": {
+                          "species": "cobblemon:poipole",
+                          "aspects": []
+                        },
+                        "minecraft:max_stack_size": 64
+                      }
+                    }
+                  ]
+
+                },
+                {
+                  "type": "minecraft:item",
+                  "name": "cobblemon:pokemon_model",
+                  "weight": 2,
+                  "functions": [
+                    {
+                      "function": "minecraft:set_components",
+                      "components": {
+                        "cobblemon:pokemon_item": {
+                          "species": "cobblemon:naganadel",
+                          "aspects": []
+                        },
+                        "minecraft:max_stack_size": 64
+                      }
+                    }
+                  ]
+
+                },
+                {
+                  "type": "minecraft:item",
+                  "name": "cobblemon:pokemon_model",
+                  "weight": 2,
+                  "functions": [
+                    {
+                      "function": "minecraft:set_components",
+                      "components": {
+                        "cobblemon:pokemon_item": {
+                          "species": "cobblemon:stakataka",
+                          "aspects": []
+                        },
+                        "minecraft:max_stack_size": 64
+                      }
+                    }
+                  ]
+
+                },
+                {
+                  "type": "minecraft:item",
+                  "name": "cobblemon:pokemon_model",
+                  "weight": 2,
+                  "functions": [
+                    {
+                      "function": "minecraft:set_components",
+                      "components": {
+                        "cobblemon:pokemon_item": {
+                          "species": "cobblemon:blacephalon",
+                          "aspects": []
+                        },
+                        "minecraft:max_stack_size": 64
+                      }
+                    }
+                  ]
+
+                },
+                {
+                  "type": "minecraft:item",
+                  "name": "cobblemon:pokemon_model",
+                  "weight": 2,
+                  "functions": [
+                    {
+                      "function": "minecraft:set_components",
+                      "components": {
+                        "cobblemon:pokemon_item": {
+                          "species": "cobblemon:zeraora",
+                          "aspects": []
+                        },
+                        "minecraft:max_stack_size": 64
+                      }
+                    }
+                  ]
+
+                },
+                {
+                  "type": "minecraft:item",
+                  "name": "cobblemon:pokemon_model",
+                  "weight": 2,
+                  "functions": [
+                    {
+                      "function": "minecraft:set_components",
+                      "components": {
+                        "cobblemon:pokemon_item": {
+                          "species": "cobblemon:meltan",
+                          "aspects": []
+                        },
+                        "minecraft:max_stack_size": 64
+                      }
+                    }
+                  ]
+
+                },
+                {
+                  "type": "minecraft:item",
+                  "name": "cobblemon:pokemon_model",
+                  "weight": 2,
+                  "functions": [
+                    {
+                      "function": "minecraft:set_components",
+                      "components": {
+                        "cobblemon:pokemon_item": {
+                          "species": "cobblemon:melmetal",
+                          "aspects": []
+                        },
+                        "minecraft:max_stack_size": 64
+                      }
+                    }
+                  ]
+
+                },
+                {
+                  "type": "minecraft:item",
+                  "name": "cobblemon:pokemon_model",
+                  "weight": 2,
+                  "functions": [
+                    {
+                      "function": "minecraft:set_components",
+                      "components": {
+                        "cobblemon:pokemon_item": {
+                          "species": "cobblemon:rillaboom",
+                          "aspects": []
+                        },
+                        "minecraft:max_stack_size": 64
+                      }
+                    }
+                  ]
+
+                },
+                {
+                  "type": "minecraft:item",
+                  "name": "cobblemon:pokemon_model",
+                  "weight": 2,
+                  "functions": [
+                    {
+                      "function": "minecraft:set_components",
+                      "components": {
+                        "cobblemon:pokemon_item": {
+                          "species": "cobblemon:cinderace",
+                          "aspects": []
+                        },
+                        "minecraft:max_stack_size": 64
+                      }
+                    }
+                  ]
+
+                },
+                {
+                  "type": "minecraft:item",
+                  "name": "cobblemon:pokemon_model",
+                  "weight": 2,
+                  "functions": [
+                    {
+                      "function": "minecraft:set_components",
+                      "components": {
+                        "cobblemon:pokemon_item": {
+                          "species": "cobblemon:inteleon",
+                          "aspects": []
+                        },
+                        "minecraft:max_stack_size": 64
+                      }
+                    }
+                  ]
+
+                },
+                {
+                  "type": "minecraft:item",
+                  "name": "cobblemon:pokemon_model",
+                  "weight": 2,
+                  "functions": [
+                    {
+                      "function": "minecraft:set_components",
+                      "components": {
+                        "cobblemon:pokemon_item": {
+                          "species": "cobblemon:dragapult",
+                          "aspects": []
+                        },
+                        "minecraft:max_stack_size": 64
+                      }
+                    }
+                  ]
+
+                },
+                {
+                  "type": "minecraft:item",
+                  "name": "cobblemon:pokemon_model",
+                  "weight": 2,
+                  "functions": [
+                    {
+                      "function": "minecraft:set_components",
+                      "components": {
+                        "cobblemon:pokemon_item": {
+                          "species": "cobblemon:zacian",
+                          "aspects": ["hero"]
+                        },
+                        "minecraft:max_stack_size": 64
+                      }
+                    }
+                  ]
+
+                },
+                {
+                  "type": "minecraft:item",
+                  "name": "cobblemon:pokemon_model",
+                  "weight": 2,
+                  "functions": [
+                    {
+                      "function": "minecraft:set_components",
+                      "components": {
+                        "cobblemon:pokemon_item": {
+                          "species": "cobblemon:zacian",
+                          "aspects": ["crowned"]
+                        },
+                        "minecraft:max_stack_size": 64
+                      }
+                    }
+                  ]
+
+                },
+                {
+                  "type": "minecraft:item",
+                  "name": "cobblemon:pokemon_model",
+                  "weight": 2,
+                  "functions": [
+                    {
+                      "function": "minecraft:set_components",
+                      "components": {
+                        "cobblemon:pokemon_item": {
+                          "species": "cobblemon:zamazenta",
+                          "aspects": ["hero"]
+                        },
+                        "minecraft:max_stack_size": 64
+                      }
+                    }
+                  ]
+
+                },
+                {
+                  "type": "minecraft:item",
+                  "name": "cobblemon:pokemon_model",
+                  "weight": 2,
+                  "functions": [
+                    {
+                      "function": "minecraft:set_components",
+                      "components": {
+                        "cobblemon:pokemon_item": {
+                          "species": "cobblemon:zamazenta",
+                          "aspects": ["crowned"]
+                        },
+                        "minecraft:max_stack_size": 64
+                      }
+                    }
+                  ]
+
+                },
+                {
+                  "type": "minecraft:item",
+                  "name": "cobblemon:pokemon_model",
+                  "weight": 2,
+                  "functions": [
+                    {
+                      "function": "minecraft:set_components",
+                      "components": {
+                        "cobblemon:pokemon_item": {
+                          "species": "cobblemon:eternatus",
+                          "aspects": []
+                        },
+                        "minecraft:max_stack_size": 64
+                      }
+                    }
+                  ]
+
+                },
+                {
+                  "type": "minecraft:item",
+                  "name": "cobblemon:pokemon_model",
+                  "weight": 2,
+                  "functions": [
+                    {
+                      "function": "minecraft:set_components",
+                      "components": {
+                        "cobblemon:pokemon_item": {
+                          "species": "cobblemon:eternatus",
+                          "aspects": ["eternamax"]
+                        },
+                        "minecraft:max_stack_size": 64
+                      }
+                    }
+                  ]
+
+                },
+                {
+                  "type": "minecraft:item",
+                  "name": "cobblemon:pokemon_model",
+                  "weight": 2,
+                  "functions": [
+                    {
+                      "function": "minecraft:set_components",
+                      "components": {
+                        "cobblemon:pokemon_item": {
+                          "species": "cobblemon:kubfu",
+                          "aspects": []
+                        },
+                        "minecraft:max_stack_size": 64
+                      }
+                    }
+                  ]
+
+                },
+                {
+                  "type": "minecraft:item",
+                  "name": "cobblemon:pokemon_model",
+                  "weight": 2,
+                  "functions": [
+                    {
+                      "function": "minecraft:set_components",
+                      "components": {
+                        "cobblemon:pokemon_item": {
+                          "species": "cobblemon:urshifu",
+                          "aspects": ["single_strike-style"]
+                        },
+                        "minecraft:max_stack_size": 64
+                      }
+                    }
+                  ]
+
+                },
+                {
+                  "type": "minecraft:item",
+                  "name": "cobblemon:pokemon_model",
+                  "weight": 2,
+                  "functions": [
+                    {
+                      "function": "minecraft:set_components",
+                      "components": {
+                        "cobblemon:pokemon_item": {
+                          "species": "cobblemon:urshifu",
+                          "aspects": ["rapid_strike-style"]
+                        },
+                        "minecraft:max_stack_size": 64
+                      }
+                    }
+                  ]
+
+                },
+                {
+                  "type": "minecraft:item",
+                  "name": "cobblemon:pokemon_model",
+                  "weight": 2,
+                  "functions": [
+                    {
+                      "function": "minecraft:set_components",
+                      "components": {
+                        "cobblemon:pokemon_item": {
+                          "species": "cobblemon:zarude",
+                          "aspects": []
+                        },
+                        "minecraft:max_stack_size": 64
+                      }
+                    }
+                  ]
+
+                },
+                {
+                  "type": "minecraft:item",
+                  "name": "cobblemon:pokemon_model",
+                  "weight": 2,
+                  "functions": [
+                    {
+                      "function": "minecraft:set_components",
+                      "components": {
+                        "cobblemon:pokemon_item": {
+                          "species": "cobblemon:regieleki",
+                          "aspects": []
+                        },
+                        "minecraft:max_stack_size": 64
+                      }
+                    }
+                  ]
+
+                },
+                {
+                  "type": "minecraft:item",
+                  "name": "cobblemon:pokemon_model",
+                  "weight": 2,
+                  "functions": [
+                    {
+                      "function": "minecraft:set_components",
+                      "components": {
+                        "cobblemon:pokemon_item": {
+                          "species": "cobblemon:regidrago",
+                          "aspects": []
+                        },
+                        "minecraft:max_stack_size": 64
+                      }
+                    }
+                  ]
+
+                },
+                {
+                  "type": "minecraft:item",
+                  "name": "cobblemon:pokemon_model",
+                  "weight": 2,
+                  "functions": [
+                    {
+                      "function": "minecraft:set_components",
+                      "components": {
+                        "cobblemon:pokemon_item": {
+                          "species": "cobblemon:glastrier",
+                          "aspects": []
+                        },
+                        "minecraft:max_stack_size": 64
+                      }
+                    }
+                  ]
+
+                },
+                {
+                  "type": "minecraft:item",
+                  "name": "cobblemon:pokemon_model",
+                  "weight": 2,
+                  "functions": [
+                    {
+                      "function": "minecraft:set_components",
+                      "components": {
+                        "cobblemon:pokemon_item": {
+                          "species": "cobblemon:spectrier",
+                          "aspects": []
+                        },
+                        "minecraft:max_stack_size": 64
+                      }
+                    }
+                  ]
+
+                },
+                {
+                  "type": "minecraft:item",
+                  "name": "cobblemon:pokemon_model",
+                  "weight": 2,
+                  "functions": [
+                    {
+                      "function": "minecraft:set_components",
+                      "components": {
+                        "cobblemon:pokemon_item": {
+                          "species": "cobblemon:calyrex",
+                          "aspects": []
+                        },
+                        "minecraft:max_stack_size": 64
+                      }
+                    }
+                  ]
+
+                },
+                {
+                  "type": "minecraft:item",
+                  "name": "cobblemon:pokemon_model",
+                  "weight": 2,
+                  "functions": [
+                    {
+                      "function": "minecraft:set_components",
+                      "components": {
+                        "cobblemon:pokemon_item": {
+                          "species": "cobblemon:calyrex",
+                          "aspects": ["ice-rider"]
+                        },
+                        "minecraft:max_stack_size": 64
+                      }
+                    }
+                  ]
+
+                },
+                {
+                  "type": "minecraft:item",
+                  "name": "cobblemon:pokemon_model",
+                  "weight": 2,
+                  "functions": [
+                    {
+                      "function": "minecraft:set_components",
+                      "components": {
+                        "cobblemon:pokemon_item": {
+                          "species": "cobblemon:calyrex",
+                          "aspects": ["shadow-rider"]
+                        },
+                        "minecraft:max_stack_size": 64
+                      }
+                    }
+                  ]
+
+                },
+                {
+                  "type": "minecraft:item",
+                  "name": "cobblemon:pokemon_model",
+                  "weight": 2,
+                  "functions": [
+                    {
+                      "function": "minecraft:set_components",
+                      "components": {
+                        "cobblemon:pokemon_item": {
+                          "species": "cobblemon:ursaluna",
+                          "aspects": ["bloodmoon"]
+                        },
+                        "minecraft:max_stack_size": 64
+                      }
+                    }
+                  ]
+
+                },
+                {
+                  "type": "minecraft:item",
+                  "name": "cobblemon:pokemon_model",
+                  "weight": 2,
+                  "functions": [
+                    {
+                      "function": "minecraft:set_components",
+                      "components": {
+                        "cobblemon:pokemon_item": {
+                          "species": "cobblemon:meowscarada",
+                          "aspects": []
+                        },
+                        "minecraft:max_stack_size": 64
+                      }
+                    }
+                  ]
+
+                },
+                {
+                  "type": "minecraft:item",
+                  "name": "cobblemon:pokemon_model",
+                  "weight": 2,
+                  "functions": [
+                    {
+                      "function": "minecraft:set_components",
+                      "components": {
+                        "cobblemon:pokemon_item": {
+                          "species": "cobblemon:skeledirge",
+                          "aspects": []
+                        },
+                        "minecraft:max_stack_size": 64
+                      }
+                    }
+                  ]
+
+                },
+                {
+                  "type": "minecraft:item",
+                  "name": "cobblemon:pokemon_model",
+                  "weight": 2,
+                  "functions": [
+                    {
+                      "function": "minecraft:set_components",
+                      "components": {
+                        "cobblemon:pokemon_item": {
+                          "species": "cobblemon:quaquaval",
+                          "aspects": []
+                        },
+                        "minecraft:max_stack_size": 64
+                      }
+                    }
+                  ]
+
+                },
+                {
+                  "type": "minecraft:item",
+                  "name": "cobblemon:pokemon_model",
+                  "weight": 2,
+                  "functions": [
+                    {
+                      "function": "minecraft:set_components",
+                      "components": {
+                        "cobblemon:pokemon_item": {
+                          "species": "cobblemon:greattusk",
+                          "aspects": []
+                        },
+                        "minecraft:max_stack_size": 64
+                      }
+                    }
+                  ]
+
+                },
+                {
+                  "type": "minecraft:item",
+                  "name": "cobblemon:pokemon_model",
+                  "weight": 2,
+                  "functions": [
+                    {
+                      "function": "minecraft:set_components",
+                      "components": {
+                        "cobblemon:pokemon_item": {
+                          "species": "cobblemon:screamtail",
+                          "aspects": []
+                        },
+                        "minecraft:max_stack_size": 64
+                      }
+                    }
+                  ]
+
+                },
+                {
+                  "type": "minecraft:item",
+                  "name": "cobblemon:pokemon_model",
+                  "weight": 2,
+                  "functions": [
+                    {
+                      "function": "minecraft:set_components",
+                      "components": {
+                        "cobblemon:pokemon_item": {
+                          "species": "cobblemon:brutebonnet",
+                          "aspects": []
+                        },
+                        "minecraft:max_stack_size": 64
+                      }
+                    }
+                  ]
+
+                },
+                {
+                  "type": "minecraft:item",
+                  "name": "cobblemon:pokemon_model",
+                  "weight": 2,
+                  "functions": [
+                    {
+                      "function": "minecraft:set_components",
+                      "components": {
+                        "cobblemon:pokemon_item": {
+                          "species": "cobblemon:fluttermane",
+                          "aspects": []
+                        },
+                        "minecraft:max_stack_size": 64
+                      }
+                    }
+                  ]
+
+                },
+                {
+                  "type": "minecraft:item",
+                  "name": "cobblemon:pokemon_model",
+                  "weight": 2,
+                  "functions": [
+                    {
+                      "function": "minecraft:set_components",
+                      "components": {
+                        "cobblemon:pokemon_item": {
+                          "species": "cobblemon:slitherwing",
+                          "aspects": []
+                        },
+                        "minecraft:max_stack_size": 64
+                      }
+                    }
+                  ]
+
+                },
+                {
+                  "type": "minecraft:item",
+                  "name": "cobblemon:pokemon_model",
+                  "weight": 2,
+                  "functions": [
+                    {
+                      "function": "minecraft:set_components",
+                      "components": {
+                        "cobblemon:pokemon_item": {
+                          "species": "cobblemon:sandyshocks",
+                          "aspects": []
+                        },
+                        "minecraft:max_stack_size": 64
+                      }
+                    }
+                  ]
+
+                },
+                {
+                  "type": "minecraft:item",
+                  "name": "cobblemon:pokemon_model",
+                  "weight": 2,
+                  "functions": [
+                    {
+                      "function": "minecraft:set_components",
+                      "components": {
+                        "cobblemon:pokemon_item": {
+                          "species": "cobblemon:irontreads",
+                          "aspects": []
+                        },
+                        "minecraft:max_stack_size": 64
+                      }
+                    }
+                  ]
+
+                },
+                {
+                  "type": "minecraft:item",
+                  "name": "cobblemon:pokemon_model",
+                  "weight": 2,
+                  "functions": [
+                    {
+                      "function": "minecraft:set_components",
+                      "components": {
+                        "cobblemon:pokemon_item": {
+                          "species": "cobblemon:ironbundle",
+                          "aspects": []
+                        },
+                        "minecraft:max_stack_size": 64
+                      }
+                    }
+                  ]
+
+                },
+                {
+                  "type": "minecraft:item",
+                  "name": "cobblemon:pokemon_model",
+                  "weight": 2,
+                  "functions": [
+                    {
+                      "function": "minecraft:set_components",
+                      "components": {
+                        "cobblemon:pokemon_item": {
+                          "species": "cobblemon:ironhands",
+                          "aspects": []
+                        },
+                        "minecraft:max_stack_size": 64
+                      }
+                    }
+                  ]
+
+                },
+                {
+                  "type": "minecraft:item",
+                  "name": "cobblemon:pokemon_model",
+                  "weight": 2,
+                  "functions": [
+                    {
+                      "function": "minecraft:set_components",
+                      "components": {
+                        "cobblemon:pokemon_item": {
+                          "species": "cobblemon:ironjugulis",
+                          "aspects": []
+                        },
+                        "minecraft:max_stack_size": 64
+                      }
+                    }
+                  ]
+
+                },
+                {
+                  "type": "minecraft:item",
+                  "name": "cobblemon:pokemon_model",
+                  "weight": 2,
+                  "functions": [
+                    {
+                      "function": "minecraft:set_components",
+                      "components": {
+                        "cobblemon:pokemon_item": {
+                          "species": "cobblemon:ironmoth",
+                          "aspects": []
+                        },
+                        "minecraft:max_stack_size": 64
+                      }
+                    }
+                  ]
+
+                },
+                {
+                  "type": "minecraft:item",
+                  "name": "cobblemon:pokemon_model",
+                  "weight": 2,
+                  "functions": [
+                    {
+                      "function": "minecraft:set_components",
+                      "components": {
+                        "cobblemon:pokemon_item": {
+                          "species": "cobblemon:ironthorns",
+                          "aspects": []
+                        },
+                        "minecraft:max_stack_size": 64
+                      }
+                    }
+                  ]
+
+                },
+                {
+                  "type": "minecraft:item",
+                  "name": "cobblemon:pokemon_model",
+                  "weight": 2,
+                  "functions": [
+                    {
+                      "function": "minecraft:set_components",
+                      "components": {
+                        "cobblemon:pokemon_item": {
+                          "species": "cobblemon:baxcalibur",
+                          "aspects": []
+                        },
+                        "minecraft:max_stack_size": 64
+                      }
+                    }
+                  ]
+
+                },
+                {
+                  "type": "minecraft:item",
+                  "name": "cobblemon:pokemon_model",
+                  "weight": 2,
+                  "functions": [
+                    {
+                      "function": "minecraft:set_components",
+                      "components": {
+                        "cobblemon:pokemon_item": {
+                          "species": "cobblemon:gholdengo",
+                          "aspects": []
+                        },
+                        "minecraft:max_stack_size": 64
+                      }
+                    }
+                  ]
+
+                },
+                {
+                  "type": "minecraft:item",
+                  "name": "cobblemon:pokemon_model",
+                  "weight": 2,
+                  "functions": [
+                    {
+                      "function": "minecraft:set_components",
+                      "components": {
+                        "cobblemon:pokemon_item": {
+                          "species": "cobblemon:wochien",
+                          "aspects": []
+                        },
+                        "minecraft:max_stack_size": 64
+                      }
+                    }
+                  ]
+
+                },
+                {
+                  "type": "minecraft:item",
+                  "name": "cobblemon:pokemon_model",
+                  "weight": 2,
+                  "functions": [
+                    {
+                      "function": "minecraft:set_components",
+                      "components": {
+                        "cobblemon:pokemon_item": {
+                          "species": "cobblemon:chienpau",
+                          "aspects": []
+                        },
+                        "minecraft:max_stack_size": 64
+                      }
+                    }
+                  ]
+
+                },
+                {
+                  "type": "minecraft:item",
+                  "name": "cobblemon:pokemon_model",
+                  "weight": 2,
+                  "functions": [
+                    {
+                      "function": "minecraft:set_components",
+                      "components": {
+                        "cobblemon:pokemon_item": {
+                          "species": "cobblemon:tinglu",
+                          "aspects": []
+                        },
+                        "minecraft:max_stack_size": 64
+                      }
+                    }
+                  ]
+
+                },
+                {
+                  "type": "minecraft:item",
+                  "name": "cobblemon:pokemon_model",
+                  "weight": 2,
+                  "functions": [
+                    {
+                      "function": "minecraft:set_components",
+                      "components": {
+                        "cobblemon:pokemon_item": {
+                          "species": "cobblemon:chiyu",
+                          "aspects": []
+                        },
+                        "minecraft:max_stack_size": 64
+                      }
+                    }
+                  ]
+
+                },
+                {
+                  "type": "minecraft:item",
+                  "name": "cobblemon:pokemon_model",
+                  "weight": 2,
+                  "functions": [
+                    {
+                      "function": "minecraft:set_components",
+                      "components": {
+                        "cobblemon:pokemon_item": {
+                          "species": "cobblemon:roaringmoon",
+                          "aspects": []
+                        },
+                        "minecraft:max_stack_size": 64
+                      }
+                    }
+                  ]
+
+                },
+                {
+                  "type": "minecraft:item",
+                  "name": "cobblemon:pokemon_model",
+                  "weight": 2,
+                  "functions": [
+                    {
+                      "function": "minecraft:set_components",
+                      "components": {
+                        "cobblemon:pokemon_item": {
+                          "species": "cobblemon:ironvaliant",
+                          "aspects": []
+                        },
+                        "minecraft:max_stack_size": 64
+                      }
+                    }
+                  ]
+
+                },
+                {
+                  "type": "minecraft:item",
+                  "name": "cobblemon:pokemon_model",
+                  "weight": 2,
+                  "functions": [
+                    {
+                      "function": "minecraft:set_components",
+                      "components": {
+                        "cobblemon:pokemon_item": {
+                          "species": "cobblemon:koraidon",
+                          "aspects": []
+                        },
+                        "minecraft:max_stack_size": 64
+                      }
+                    }
+                  ]
+
+                },
+                {
+                  "type": "minecraft:item",
+                  "name": "cobblemon:pokemon_model",
+                  "weight": 2,
+                  "functions": [
+                    {
+                      "function": "minecraft:set_components",
+                      "components": {
+                        "cobblemon:pokemon_item": {
+                          "species": "cobblemon:miraidon",
+                          "aspects": []
+                        },
+                        "minecraft:max_stack_size": 64
+                      }
+                    }
+                  ]
+
+                },
+                {
+                  "type": "minecraft:item",
+                  "name": "cobblemon:pokemon_model",
+                  "weight": 2,
+                  "functions": [
+                    {
+                      "function": "minecraft:set_components",
+                      "components": {
+                        "cobblemon:pokemon_item": {
+                          "species": "cobblemon:walkingwake",
+                          "aspects": []
+                        },
+                        "minecraft:max_stack_size": 64
+                      }
+                    }
+                  ]
+
+                },
+                {
+                  "type": "minecraft:item",
+                  "name": "cobblemon:pokemon_model",
+                  "weight": 2,
+                  "functions": [
+                    {
+                      "function": "minecraft:set_components",
+                      "components": {
+                        "cobblemon:pokemon_item": {
+                          "species": "cobblemon:ironleaves",
+                          "aspects": []
+                        },
+                        "minecraft:max_stack_size": 64
+                      }
+                    }
+                  ]
+
+                },
+                {
+                  "type": "minecraft:item",
+                  "name": "cobblemon:pokemon_model",
+                  "weight": 2,
+                  "functions": [
+                    {
+                      "function": "minecraft:set_components",
+                      "components": {
+                        "cobblemon:pokemon_item": {
+                          "species": "cobblemon:okidogi",
+                          "aspects": []
+                        },
+                        "minecraft:max_stack_size": 64
+                      }
+                    }
+                  ]
+
+                },
+                {
+                  "type": "minecraft:item",
+                  "name": "cobblemon:pokemon_model",
+                  "weight": 2,
+                  "functions": [
+                    {
+                      "function": "minecraft:set_components",
+                      "components": {
+                        "cobblemon:pokemon_item": {
+                          "species": "cobblemon:munkidori",
+                          "aspects": []
+                        },
+                        "minecraft:max_stack_size": 64
+                      }
+                    }
+                  ]
+
+                },
+                {
+                  "type": "minecraft:item",
+                  "name": "cobblemon:pokemon_model",
+                  "weight": 2,
+                  "functions": [
+                    {
+                      "function": "minecraft:set_components",
+                      "components": {
+                        "cobblemon:pokemon_item": {
+                          "species": "cobblemon:fezandipiti",
+                          "aspects": []
+                        },
+                        "minecraft:max_stack_size": 64
+                      }
+                    }
+                  ]
+
+                },
+                {
+                  "type": "minecraft:item",
+                  "name": "cobblemon:pokemon_model",
+                  "weight": 2,
+                  "functions": [
+                    {
+                      "function": "minecraft:set_components",
+                      "components": {
+                        "cobblemon:pokemon_item": {
+                          "species": "cobblemon:ogerpon",
+                          "aspects": []
+                        },
+                        "minecraft:max_stack_size": 64
+                      }
+                    }
+                  ]
+
+                },
+                {
+                  "type": "minecraft:item",
+                  "name": "cobblemon:pokemon_model",
+                  "weight": 2,
+                  "functions": [
+                    {
+                      "function": "minecraft:set_components",
+                      "components": {
+                        "cobblemon:pokemon_item": {
+                          "species": "cobblemon:ogerpon",
+                          "aspects": ["teal-mask"]
+                        },
+                        "minecraft:max_stack_size": 64
+                      }
+                    }
+                  ]
+
+                },
+                {
+                  "type": "minecraft:item",
+                  "name": "cobblemon:pokemon_model",
+                  "weight": 2,
+                  "functions": [
+                    {
+                      "function": "minecraft:set_components",
+                      "components": {
+                        "cobblemon:pokemon_item": {
+                          "species": "cobblemon:ogerpon",
+                          "aspects": ["wellspring-mask"]
+                        },
+                        "minecraft:max_stack_size": 64
+                      }
+                    }
+                  ]
+
+                },
+                {
+                  "type": "minecraft:item",
+                  "name": "cobblemon:pokemon_model",
+                  "weight": 2,
+                  "functions": [
+                    {
+                      "function": "minecraft:set_components",
+                      "components": {
+                        "cobblemon:pokemon_item": {
+                          "species": "cobblemon:ogerpon",
+                          "aspects": ["hearthflame-mask"]
+                        },
+                        "minecraft:max_stack_size": 64
+                      }
+                    }
+                  ]
+
+                },
+                {
+                  "type": "minecraft:item",
+                  "name": "cobblemon:pokemon_model",
+                  "weight": 2,
+                  "functions": [
+                    {
+                      "function": "minecraft:set_components",
+                      "components": {
+                        "cobblemon:pokemon_item": {
+                          "species": "cobblemon:ogerpon",
+                          "aspects": ["cornerstone-mask"]
+                        },
+                        "minecraft:max_stack_size": 64
+                      }
+                    }
+                  ]
+
+                },
+                {
+                  "type": "minecraft:item",
+                  "name": "cobblemon:pokemon_model",
+                  "weight": 2,
+                  "functions": [
+                    {
+                      "function": "minecraft:set_components",
+                      "components": {
+                        "cobblemon:pokemon_item": {
+                          "species": "cobblemon:archaludon",
+                          "aspects": []
+                        },
+                        "minecraft:max_stack_size": 64
+                      }
+                    }
+                  ]
+
+                },
+                {
+                  "type": "minecraft:item",
+                  "name": "cobblemon:pokemon_model",
+                  "weight": 2,
+                  "functions": [
+                    {
+                      "function": "minecraft:set_components",
+                      "components": {
+                        "cobblemon:pokemon_item": {
+                          "species": "cobblemon:gougingfire",
+                          "aspects": []
+                        },
+                        "minecraft:max_stack_size": 64
+                      }
+                    }
+                  ]
+
+                },
+                {
+                  "type": "minecraft:item",
+                  "name": "cobblemon:pokemon_model",
+                  "weight": 2,
+                  "functions": [
+                    {
+                      "function": "minecraft:set_components",
+                      "components": {
+                        "cobblemon:pokemon_item": {
+                          "species": "cobblemon:ragingbolt",
+                          "aspects": []
+                        },
+                        "minecraft:max_stack_size": 64
+                      }
+                    }
+                  ]
+
+                },
+                {
+                  "type": "minecraft:item",
+                  "name": "cobblemon:pokemon_model",
+                  "weight": 2,
+                  "functions": [
+                    {
+                      "function": "minecraft:set_components",
+                      "components": {
+                        "cobblemon:pokemon_item": {
+                          "species": "cobblemon:ironboulder",
+                          "aspects": []
+                        },
+                        "minecraft:max_stack_size": 64
+                      }
+                    }
+                  ]
+
+                },
+                {
+                  "type": "minecraft:item",
+                  "name": "cobblemon:pokemon_model",
+                  "weight": 2,
+                  "functions": [
+                    {
+                      "function": "minecraft:set_components",
+                      "components": {
+                        "cobblemon:pokemon_item": {
+                          "species": "cobblemon:ironcrown",
+                          "aspects": []
+                        },
+                        "minecraft:max_stack_size": 64
+                      }
+                    }
+                  ]
+
+                },
+                {
+                  "type": "minecraft:item",
+                  "name": "cobblemon:pokemon_model",
+                  "weight": 2,
+                  "functions": [
+                    {
+                      "function": "minecraft:set_components",
+                      "components": {
+                        "cobblemon:pokemon_item": {
+                          "species": "cobblemon:terapagos",
+                          "aspects": []
+                        },
+                        "minecraft:max_stack_size": 64
+                      }
+                    }
+                  ]
+
+                },
+                {
+                  "type": "minecraft:item",
+                  "name": "cobblemon:pokemon_model",
+                  "weight": 2,
+                  "functions": [
+                    {
+                      "function": "minecraft:set_components",
+                      "components": {
+                        "cobblemon:pokemon_item": {
+                          "species": "cobblemon:terapagos",
+                          "aspects": ["normal-form"]
+                        },
+                        "minecraft:max_stack_size": 64
+                      }
+                    }
+                  ]
+
+                },
+                {
+                  "type": "minecraft:item",
+                  "name": "cobblemon:pokemon_model",
+                  "weight": 2,
+                  "functions": [
+                    {
+                      "function": "minecraft:set_components",
+                      "components": {
+                        "cobblemon:pokemon_item": {
+                          "species": "cobblemon:terapagos",
+                          "aspects": ["terastal-form"]
+                        },
+                        "minecraft:max_stack_size": 64
+                      }
+                    }
+                  ]
+
+                },
+                {
+                  "type": "minecraft:item",
+                  "name": "cobblemon:pokemon_model",
+                  "weight": 2,
+                  "functions": [
+                    {
+                      "function": "minecraft:set_components",
+                      "components": {
+                        "cobblemon:pokemon_item": {
+                          "species": "cobblemon:terapagos",
+                          "aspects": ["stellar-form"]
+                        },
+                        "minecraft:max_stack_size": 64
+                      }
+                    }
+                  ]
+
+                },
+                {
+                  "type": "minecraft:item",
+                  "name": "cobblemon:pokemon_model",
+                  "weight": 2,
+                  "functions": [
+                    {
+                      "function": "minecraft:set_components",
+                      "components": {
+                        "cobblemon:pokemon_item": {
+                          "species": "cobblemon:pecharunt",
+                          "aspects": []
+                        },
+                        "minecraft:max_stack_size": 64
+                      }
+                    }
+                  ]
+
+                }
+
+
+
+
+
+
+
+
+
+
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "random_sequence": "cobblebox:blocks/ultrarare_cobblebox"
+}
