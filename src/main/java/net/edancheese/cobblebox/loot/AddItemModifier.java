@@ -26,11 +26,11 @@ public class AddItemModifier extends LootModifier {
 
     @Override
     protected ObjectArrayList<ItemStack> doApply(ObjectArrayList<ItemStack> generatedLoot, LootContext lootContext) {
-        for (LootItemCondition condition : this.conditions) {
-            if(!condition.test(lootContext)) {
-                return generatedLoot;
-            }
-        }
+        //for (LootItemCondition condition : this.conditions) {
+         //   if(!condition.test(lootContext)) {
+        //        return generatedLoot;
+        //    }
+      //  }
         generatedLoot.add(new ItemStack(this.item));
         return generatedLoot;
     }
