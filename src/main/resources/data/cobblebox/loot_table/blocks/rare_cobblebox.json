@@ -2380,7 +2380,7 @@
                       "function": "minecraft:set_components",
                       "components": {
                         "cobblemon:pokemon_item": {
-                          "species": "cobblemon:treeko",
+                          "species": "cobblemon:treecko",
                           "aspects": []
                         },
                         "minecraft:max_stack_size": 64

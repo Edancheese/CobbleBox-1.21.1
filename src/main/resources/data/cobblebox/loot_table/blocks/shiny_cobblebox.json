@@ -2563,6 +2563,24 @@
                       "function": "minecraft:set_components",
                       "components": {
                         "cobblemon:pokemon_item": {
+                          "species": "cobblemon:sneasel",
+                          "aspects": ["hisuian", "shiny"]
+                        },
+                        "minecraft:max_stack_size": 64
+                      }
+                    }
+                  ]
+
+                },
+                {
+                  "type": "minecraft:item",
+                  "name": "cobblemon:pokemon_model",
+                  "weight": 2,
+                  "functions": [
+                    {
+                      "function": "minecraft:set_components",
+                      "components": {
+                        "cobblemon:pokemon_item": {
                           "species": "cobblemon:teddiursa",
                           "aspects": ["shiny"]
                         },
@@ -6283,23 +6301,6 @@
                           "aspects": [
                             "female", "shiny"
                           ]
-                        },
-                        "minecraft:max_stack_size": 64
-                      }
-                    }
-                  ]
-                },
-                {
-                  "type": "minecraft:item",
-                  "name": "cobblemon:pokemon_model",
-                  "weight": 2,
-                  "functions": [
-                    {
-                      "function": "minecraft:set_components",
-                      "components": {
-                        "cobblemon:pokemon_item": {
-                          "species": "cobblemon:",
-                          "aspects": ["shiny"]
                         },
                         "minecraft:max_stack_size": 64
                       }
