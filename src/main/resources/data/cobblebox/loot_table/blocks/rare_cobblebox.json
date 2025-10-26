@@ -6988,7 +6988,7 @@
                       "function": "minecraft:set_components",
                       "components": {
                         "cobblemon:pokemon_item": {
-                          "species": "cobblemon:anihilape",
+                          "species": "cobblemon:annihilape",
                           "aspects": []
                         },
                         "minecraft:max_stack_size": 64
