@@ -6628,7 +6628,7 @@
                       "function": "minecraft:set_components",
                       "components": {
                         "cobblemon:pokemon_item": {
-                          "species": "cobblemon:qwaxwell",
+                          "species": "cobblemon:quaxwell",
                           "aspects": []
                         },
                         "minecraft:max_stack_size": 64
@@ -6898,7 +6898,7 @@
                       "function": "minecraft:set_components",
                       "components": {
                         "cobblemon:pokemon_item": {
-                          "species": "cobblemon:cylizar",
+                          "species": "cobblemon:cyclizar",
                           "aspects": []
                         },
                         "minecraft:max_stack_size": 64
@@ -7150,7 +7150,7 @@
                       "function": "minecraft:set_components",
                       "components": {
                         "cobblemon:pokemon_item": {
-                          "species": "cobblemon:polchageist",
+                          "species": "cobblemon:poltchageist",
                           "aspects": []
                         },
                         "minecraft:max_stack_size": 64

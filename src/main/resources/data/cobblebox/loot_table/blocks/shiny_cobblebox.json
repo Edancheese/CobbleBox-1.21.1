@@ -2185,7 +2185,7 @@
                       "function": "minecraft:set_components",
                       "components": {
                         "cobblemon:pokemon_item": {
-                          "species": "cobblemon:flaafy",
+                          "species": "cobblemon:flaaffy",
                           "aspects": ["shiny"]
                         },
                         "minecraft:max_stack_size": 64
@@ -3860,7 +3860,7 @@
                       "function": "minecraft:set_components",
                       "components": {
                         "cobblemon:pokemon_item": {
-                          "species": "cobblemon:corpish",
+                          "species": "cobblemon:corphish",
                           "aspects": ["shiny"]
                         },
                         "minecraft:max_stack_size": 64
@@ -7317,7 +7317,92 @@
                       "components": {
                         "cobblemon:pokemon_item": {
                           "species": "cobblemon:flabebe",
-                          "aspects": ["shiny"]
+                          "aspects": ["shiny", "flower-red"]
+                        },
+                        "minecraft:max_stack_size": 64
+                      }
+                    }
+                  ]
+                },
+                {
+                  "type": "minecraft:item",
+                  "name": "cobblemon:pokemon_model",
+                  "weight": 2,
+                  "functions": [
+                    {
+                      "function": "minecraft:set_components",
+                      "components": {
+                        "cobblemon:pokemon_item": {
+                          "species": "cobblemon:flabebe",
+                          "aspects": ["shiny", "flower-yellow"]
+                        },
+                        "minecraft:max_stack_size": 64
+                      }
+                    }
+                  ]
+                },
+                {
+                  "type": "minecraft:item",
+                  "name": "cobblemon:pokemon_model",
+                  "weight": 2,
+                  "functions": [
+                    {
+                      "function": "minecraft:set_components",
+                      "components": {
+                        "cobblemon:pokemon_item": {
+                          "species": "cobblemon:flabebe",
+                          "aspects": ["shiny", "flower-orange"]
+                        },
+                        "minecraft:max_stack_size": 64
+                      }
+                    }
+                  ]
+                },
+                {
+                  "type": "minecraft:item",
+                  "name": "cobblemon:pokemon_model",
+                  "weight": 2,
+                  "functions": [
+                    {
+                      "function": "minecraft:set_components",
+                      "components": {
+                        "cobblemon:pokemon_item": {
+                          "species": "cobblemon:flabebe",
+                          "aspects": ["shiny", "flower-blue"]
+                        },
+                        "minecraft:max_stack_size": 64
+                      }
+                    }
+                  ]
+                },
+                {
+                  "type": "minecraft:item",
+                  "name": "cobblemon:pokemon_model",
+                  "weight": 2,
+                  "functions": [
+                    {
+                      "function": "minecraft:set_components",
+                      "components": {
+                        "cobblemon:pokemon_item": {
+                          "species": "cobblemon:flabebe",
+                          "aspects": ["shiny", "flower-white"]
+                        },
+                        "minecraft:max_stack_size": 64
+                      }
+                    }
+                  ]
+                },
+                {
+                  "type": "minecraft:item",
+                  "name": "cobblemon:pokemon_model",
+                  "weight": 2,
+                  "functions": [
+                    {
+                      "function": "minecraft:set_components",
+                      "components": {
+                        "cobblemon:pokemon_item": {
+                          "species": "cobblemon:flabebe",
+                          "aspects": ["shiny", "flower-pink"]
                         },
                         "minecraft:max_stack_size": 64
                       }
@@ -7334,7 +7419,109 @@
                       "components": {
                         "cobblemon:pokemon_item": {
                           "species": "cobblemon:floette",
-                          "aspects": ["shiny"]
+                          "aspects": ["shiny", "flower-red"]
+                        },
+                        "minecraft:max_stack_size": 64
+                      }
+                    }
+                  ]
+                },
+                {
+                  "type": "minecraft:item",
+                  "name": "cobblemon:pokemon_model",
+                  "weight": 2,
+                  "functions": [
+                    {
+                      "function": "minecraft:set_components",
+                      "components": {
+                        "cobblemon:pokemon_item": {
+                          "species": "cobblemon:floette",
+                          "aspects": ["shiny", "flower-yellow"]
+                        },
+                        "minecraft:max_stack_size": 64
+                      }
+                    }
+                  ]
+                },
+                {
+                  "type": "minecraft:item",
+                  "name": "cobblemon:pokemon_model",
+                  "weight": 2,
+                  "functions": [
+                    {
+                      "function": "minecraft:set_components",
+                      "components": {
+                        "cobblemon:pokemon_item": {
+                          "species": "cobblemon:floette",
+                          "aspects": ["shiny", "flower-orange"]
+                        },
+                        "minecraft:max_stack_size": 64
+                      }
+                    }
+                  ]
+                },
+                {
+                  "type": "minecraft:item",
+                  "name": "cobblemon:pokemon_model",
+                  "weight": 2,
+                  "functions": [
+                    {
+                      "function": "minecraft:set_components",
+                      "components": {
+                        "cobblemon:pokemon_item": {
+                          "species": "cobblemon:floette",
+                          "aspects": ["shiny", "flower-blue"]
+                        },
+                        "minecraft:max_stack_size": 64
+                      }
+                    }
+                  ]
+                },
+                {
+                  "type": "minecraft:item",
+                  "name": "cobblemon:pokemon_model",
+                  "weight": 2,
+                  "functions": [
+                    {
+                      "function": "minecraft:set_components",
+                      "components": {
+                        "cobblemon:pokemon_item": {
+                          "species": "cobblemon:floette",
+                          "aspects": ["shiny", "flower-white"]
+                        },
+                        "minecraft:max_stack_size": 64
+                      }
+                    }
+                  ]
+                },
+                {
+                  "type": "minecraft:item",
+                  "name": "cobblemon:pokemon_model",
+                  "weight": 2,
+                  "functions": [
+                    {
+                      "function": "minecraft:set_components",
+                      "components": {
+                        "cobblemon:pokemon_item": {
+                          "species": "cobblemon:floette",
+                          "aspects": ["shiny", "flower-pink"]
+                        },
+                        "minecraft:max_stack_size": 64
+                      }
+                    }
+                  ]
+                },
+                {
+                  "type": "minecraft:item",
+                  "name": "cobblemon:pokemon_model",
+                  "weight": 2,
+                  "functions": [
+                    {
+                      "function": "minecraft:set_components",
+                      "components": {
+                        "cobblemon:pokemon_item": {
+                          "species": "cobblemon:floette",
+                          "aspects": ["shiny", "flower-eternal"]
                         },
                         "minecraft:max_stack_size": 64
                       }
@@ -7351,7 +7538,92 @@
                       "components": {
                         "cobblemon:pokemon_item": {
                           "species": "cobblemon:florges",
-                          "aspects": ["shiny"]
+                          "aspects": ["shiny", "flower-red"]
+                        },
+                        "minecraft:max_stack_size": 64
+                      }
+                    }
+                  ]
+                },
+                {
+                  "type": "minecraft:item",
+                  "name": "cobblemon:pokemon_model",
+                  "weight": 2,
+                  "functions": [
+                    {
+                      "function": "minecraft:set_components",
+                      "components": {
+                        "cobblemon:pokemon_item": {
+                          "species": "cobblemon:florges",
+                          "aspects": ["shiny", "flower-yellow"]
+                        },
+                        "minecraft:max_stack_size": 64
+                      }
+                    }
+                  ]
+                },
+                {
+                  "type": "minecraft:item",
+                  "name": "cobblemon:pokemon_model",
+                  "weight": 2,
+                  "functions": [
+                    {
+                      "function": "minecraft:set_components",
+                      "components": {
+                        "cobblemon:pokemon_item": {
+                          "species": "cobblemon:florges",
+                          "aspects": ["shiny", "flower-orange"]
+                        },
+                        "minecraft:max_stack_size": 64
+                      }
+                    }
+                  ]
+                },
+                {
+                  "type": "minecraft:item",
+                  "name": "cobblemon:pokemon_model",
+                  "weight": 2,
+                  "functions": [
+                    {
+                      "function": "minecraft:set_components",
+                      "components": {
+                        "cobblemon:pokemon_item": {
+                          "species": "cobblemon:florges",
+                          "aspects": ["shiny", "flower-blue"]
+                        },
+                        "minecraft:max_stack_size": 64
+                      }
+                    }
+                  ]
+                },
+                {
+                  "type": "minecraft:item",
+                  "name": "cobblemon:pokemon_model",
+                  "weight": 2,
+                  "functions": [
+                    {
+                      "function": "minecraft:set_components",
+                      "components": {
+                        "cobblemon:pokemon_item": {
+                          "species": "cobblemon:florges",
+                          "aspects": ["shiny", "flower-white"]
+                        },
+                        "minecraft:max_stack_size": 64
+                      }
+                    }
+                  ]
+                },
+                {
+                  "type": "minecraft:item",
+                  "name": "cobblemon:pokemon_model",
+                  "weight": 2,
+                  "functions": [
+                    {
+                      "function": "minecraft:set_components",
+                      "components": {
+                        "cobblemon:pokemon_item": {
+                          "species": "cobblemon:florges",
+                          "aspects": ["shiny", "flower-pink"]
                         },
                         "minecraft:max_stack_size": 64
                       }
@@ -8284,7 +8556,7 @@
                       "function": "minecraft:set_components",
                       "components": {
                         "cobblemon:pokemon_item": {
-                          "species": "cobblemon:morellul",
+                          "species": "cobblemon:morelull",
                           "aspects": ["shiny"]
                         },
                         "minecraft:max_stack_size": 64
@@ -9336,7 +9608,24 @@
                       "components": {
                         "cobblemon:pokemon_item": {
                           "species": "cobblemon:indeedee",
-                          "aspects": ["shiny"]
+                          "aspects": ["male","shiny"]
+                        },
+                        "minecraft:max_stack_size": 64
+                      }
+                    }
+                  ]
+                },
+                {
+                  "type": "minecraft:item",
+                  "name": "cobblemon:pokemon_model",
+                  "weight": 2,
+                  "functions": [
+                    {
+                      "function": "minecraft:set_components",
+                      "components": {
+                        "cobblemon:pokemon_item": {
+                          "species": "cobblemon:indeedee",
+                          "aspects": ["female","shiny"]
                         },
                         "minecraft:max_stack_size": 64
                       }
@@ -9560,7 +9849,7 @@
                       "function": "minecraft:set_components",
                       "components": {
                         "cobblemon:pokemon_item": {
-                          "species": "cobblemon:pawmott",
+                          "species": "cobblemon:pawmot",
                           "aspects": ["shiny"]
                         },
                         "minecraft:max_stack_size": 64
@@ -16687,7 +16976,7 @@
                           "function": "minecraft:set_components",
                           "components": {
                             "cobblemon:pokemon_item": {
-                              "species": "cobblemon:qwaxwell",
+                              "species": "cobblemon:quaxwell",
                               "aspects": ["shiny"]
                             },
                             "minecraft:max_stack_size": 64
@@ -16948,7 +17237,7 @@
                           "function": "minecraft:set_components",
                           "components": {
                             "cobblemon:pokemon_item": {
-                              "species": "cobblemon:cylizar",
+                              "species": "cobblemon:cyclizar",
                               "aspects": ["shiny"]
                             },
                             "minecraft:max_stack_size": 64
@@ -17196,7 +17485,7 @@
                           "function": "minecraft:set_components",
                           "components": {
                             "cobblemon:pokemon_item": {
-                              "species": "cobblemon:polchageist",
+                              "species": "cobblemon:poltchageist",
                               "aspects": ["shiny"]
                             },
                             "minecraft:max_stack_size": 64
